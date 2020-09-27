@@ -10,7 +10,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 * Guilherme Perfeito (PO)
 * Pedro Motta (Master SCRUM)
 * Nicholas Roque (DEV Team)
-* Vitor Alexandre (DEV Team)
+* Vitor Alexandre Vargas dos Santos (DEV Team)
 * Wagner Kenji (DEV Team)
 * João Vitor Sales (DEV Team)
 * Lucas Lima Chaves (DEV Team)
@@ -117,6 +117,13 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ![Screenshot_2020-09-27 Figma(6)](https://user-images.githubusercontent.com/58821700/94359944-55c94600-0080-11eb-8a89-00bd291aa4db.png)
 
+## Modelo de Dados
+
+### Modelo Conceitual
+
+### Modelo Lógico
+
+### Modelo Físico
 ## Requisitos para funcionamento
 
 - JDK 11
