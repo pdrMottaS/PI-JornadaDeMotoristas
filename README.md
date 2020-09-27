@@ -89,6 +89,10 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Telas
 
+-Home
+
+![Screenshot_2020-09-27 Figma(4)](https://user-images.githubusercontent.com/58821700/94359958-637ecb80-0080-11eb-9b12-4469e18ba3fc.png)
+
 -Login
 
 ![Screenshot_2020-09-27 Figma(2)](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
@@ -104,6 +108,14 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 -Tela principal do perfil administrativo e listagem de colaboradores
 
 ![Screenshot_2020-09-27 Figma(3)](https://user-images.githubusercontent.com/58821700/94358666-19deb280-0079-11eb-943a-db52ada11e60.png)
+
+-Tela principal do motorista
+
+![Screenshot_2020-09-27 Figma(5)](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
+
+-Tela principal do setor financeiro
+
+![Screenshot_2020-09-27 Figma(6)](https://user-images.githubusercontent.com/58821700/94359944-55c94600-0080-11eb-8a89-00bd291aa4db.png)
 
 ## Requisitos para funcionamento
 
