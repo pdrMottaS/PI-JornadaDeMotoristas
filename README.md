@@ -119,13 +119,17 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Modelo de Dados
 
-### Modelo Conceitual
+#### Modelo Conceitual
 
-### Modelo Lógico
+![conceito PI](https://user-images.githubusercontent.com/67328620/94372431-bafa5700-00d3-11eb-8215-fd64f7a7b94f.png)
+
+#### Modelo Lógico
 
 ![logico  PI](https://user-images.githubusercontent.com/67328620/94372430-b9c92a00-00d3-11eb-89ea-517a9357647f.png)
 
-### Modelo Físico
+Os tipos de dados da imagem acima são meramente ilustrativos.
+
+#### Modelo Físico
 
 O Modelo Físico foi feito utilizando o brModelo
 
