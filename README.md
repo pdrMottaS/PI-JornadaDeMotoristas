@@ -2,6 +2,7 @@
 # Projeto Integrador-Jornada de Motoristas
 
 Na sprint zero começamos a criação de um REST API com Spring Boot para o controle de motoristas e vaículos além de login para o perfil administrador, seguindo o seguinte Story Card:
+
 ![Card 1](https://user-images.githubusercontent.com/58821700/94357549-23afe800-0070-11eb-945e-5814d8d82ebe.png)
 
 ## Execução
