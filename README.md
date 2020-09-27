@@ -124,6 +124,127 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 ### Modelo Lógico
 
 ### Modelo Físico
+
+-- Sql ANSI 2003 - brModelo.
+
+
+
+CREATE TABLE Motorista (
+Nome completo VARCHAR(10),
+CPF VARCHAR(10),
+ID do veiculo VARCHAR(10),
+RNTRC VARCHAR(10) PRIMARY KEY,
+Email VARCHAR(10),
+Telefone VARCHAR(10),
+IsGerente VARCHAR(10),
+ID VARCHAR(10),
+-- Erro: nome do campo duplicado nesta tabela!
+ID VARCHAR(10)
+)
+
+CREATE TABLE Escala (
+Turno VARCHAR(10),
+Dias de trabalho VARCHAR(10),
+Carga Horária diaria VARCHAR(10),
+Folga VARCHAR(10)
+)
+
+CREATE TABLE Veiculo (
+ID do rastreador VARCHAR(10),
+Versão VARCHAR(10),
+Rastreador VARCHAR(10),
+Placa VARCHAR(10) PRIMARY KEY,
+Disponibilidade VARCHAR(10)
+)
+
+CREATE TABLE Alertas (
+Ocorrencia VARCHAR(10),
+Sigla VARCHAR(10),
+Icone VARCHAR(10),
+regra/parametro VARCHAR(10),
+Descrição(nomenclatura) VARCHAR(10) PRIMARY KEY,
+RNTRC VARCHAR(10),
+FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC)
+)
+
+CREATE TABLE Status (
+Inicio de jornada VARCHAR(10),
+fim de jornada VARCHAR(10)
+)
+
+CREATE TABLE Plano de negocios (
+ID do plano VARCHAR(10) PRIMARY KEY,
+Descrição VARCHAR(10),
+Contratante VARCHAR(10)
+)
+
+CREATE TABLE Jornada (
+tempo de trabalho VARCHAR(10),
+tempo de refeição VARCHAR(10),
+tempo de descanso VARCHAR(10),
+tempo de espera VARCHAR(10),
+ID do plano VARCHAR(10),
+FOREIGN KEY(ID do plano) REFERENCES Plano de negocios (ID do plano)
+)
+
+CREATE TABLE Administrativo (
+Matricula VARCHAR(10) PRIMARY KEY,
+Nome completo VARCHAR(10),
+CPF VARCHAR(10),
+Telefone VARCHAR(10),
+Email VARCHAR(10),
+ID VARCHAR(10),
+-- Erro: nome do campo duplicado nesta tabela!
+ID VARCHAR(10)
+)
+
+CREATE TABLE Login (
+ID VARCHAR(10) PRIMARY KEY,
+Senha VARCHAR(10),
+Nivel VARCHAR(10),
+Login VARCHAR(10)
+)
+
+CREATE TABLE Financeiro (
+CPF VARCHAR(10),
+Matricula VARCHAR(10) PRIMARY KEY,
+Telefone VARCHAR(10),
+Email VARCHAR(10),
+Nome_completo VARCHAR(10),
+ID VARCHAR(10),
+FOREIGN KEY(ID) REFERENCES Login (ID)
+)
+
+CREATE TABLE Salário (
+Proximo pagamento VARCHAR(10),
+Ultimo pagamento VARCHAR(10),
+ID VARCHAR(10) PRIMARY KEY
+)
+
+CREATE TABLE Possui (
+RNTRC VARCHAR(10),
+Placa VARCHAR(10),
+FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC),
+FOREIGN KEY(Placa) REFERENCES Veiculo (Placa)
+)
+
+CREATE TABLE Opera (
+Matricula VARCHAR(10),
+FOREIGN KEY(Matricula) REFERENCES Administrativo (Matricula)
+)
+
+CREATE TABLE Gerencia (
+ID VARCHAR(10),
+Matricula VARCHAR(10),
+FOREIGN KEY(ID) REFERENCES Salário (ID),
+FOREIGN KEY(Matricula) REFERENCES Financeiro (Matricula)
+)
+
+ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Login (ID)
+ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Salário (ID)
+ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Login (ID)
+ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Salário (ID)
+
 ## Requisitos para funcionamento
 
 - JDK 11
