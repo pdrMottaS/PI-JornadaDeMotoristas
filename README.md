@@ -104,3 +104,9 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 -Tela principal do perfil administrativo e listagem de colaboradores
 
 ![Screenshot_2020-09-27 Figma(3)](https://user-images.githubusercontent.com/58821700/94358666-19deb280-0079-11eb-943a-db52ada11e60.png)
+
+## Requisitos para funcionamento
+
+- JDK 11
+- IDE NODEJS 10.19.0 ou superior
+- Gerenciador de pacotes NPM
