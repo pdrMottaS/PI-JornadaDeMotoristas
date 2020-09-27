@@ -1,0 +1,44 @@
+.header{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header div section{
+    color: #C3C3C3;
+    font-family: 'Actor', sans-serif;
+    font-size: 16px;
+}
+
+.header div section a{
+    text-decoration: none;
+    color: #C3C3C3;
+    font-family: 'Actor', sans-serif;
+    font-size: 16px;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.header div a h5{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    color: #FEFEFE;
+
+    mix-blend-mode: normal;
+}
+
+.header h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 34px;
+}

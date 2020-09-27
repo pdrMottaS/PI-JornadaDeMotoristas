@@ -1,0 +1,29 @@
+.menu{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.titulo-menu{
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 43px;
+    margin-bottom: 6px;
+}
+
+.texto-menu{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.lista-menu{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}

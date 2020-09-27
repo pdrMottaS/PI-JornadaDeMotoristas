@@ -1,0 +1,107 @@
+.fundo-login{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-image: url(../../assets/fundo-login.jpg);
+    object-fit: cover;
+    object-position: center;
+    background-size: cover;
+}
+
+.div-login{
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4.5%;
+    height: 60%;
+    padding: 5%;
+    background: rgba(24, 28, 128, 0.35);
+    border-radius: 4rem;
+    position: relative;
+    align-items: center;
+}
+
+.linha-login{
+    height: 0.188rem;
+    background:  #FFFFFF;
+
+}
+
+.fundo-logo-login{
+    width: auto;
+    height: auto;
+    margin:2% 34% 0% 34%;
+    position: absolute;
+    align-items: center;
+    top: 0rem;
+    background: #E5E5E5;
+    padding: 0rem;
+    border: 0.188rem solid #FFFFFF;
+    border-radius: 100%;
+}
+
+.logo-login{
+    width: 6rem;
+    height: auto;
+}
+
+.login{
+    font-family: 'Red Hat Text',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.83rem;
+    line-height: 2rem;
+    margin-top: 15%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    margin-bottom: 4%;
+
+    color: #fefefe;
+}
+
+.label-login{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 15%;
+
+    color: #fefefe;
+    width: 70%;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.input-login{
+    width: 70%;
+    margin: 2% 15% 2% 15%;
+    background: #3D66D0;
+    border: none;
+    height: 2rem;
+    color: #fefefe;
+}
+
+.botao-login{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+    color: #fefefe;
+    background: #4971D9;
+    border-radius: 5rem;
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    height: 2rem;
+
+    border: none;
+}
