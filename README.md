@@ -111,7 +111,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Cadastro de veículos
 
-![Tela de Cadastro do Veículo](https://user-images.githubusercontent.com/67328620/94373586-b4241200-00dc-11eb-9508-0567e257ef11.png)
+![Tela de Cadastro do veiculo](https://user-images.githubusercontent.com/67328620/94374045-e3884e00-00df-11eb-9495-2b849dc76b2c.png)
 
 -Tela principal do perfil administrativo e listagem de colaboradores
 
