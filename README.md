@@ -1,5 +1,5 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
-# Projeto Integrador-JornadaDeMotoristas
+# Projeto Integrador-Jornada de Motoristas
 
 Na sprint zero começamos a criação de um REST API com Spring Boot para o controle de motoristas e vaículos além de login para o perfil administrador, seguindo o seguinte Story Card:
 ![Card 1](https://user-images.githubusercontent.com/58821700/94357549-23afe800-0070-11eb-945e-5814d8d82ebe.png)
@@ -61,6 +61,24 @@ Na sprint zero começamos a criação de um REST API com Spring Boot para o cont
 
 ![search_veiculo](https://user-images.githubusercontent.com/58821700/94357802-4a6f1e00-0072-11eb-907e-ec971af999f2.gif)
 
-## Login
+### Login
 
 ![login](https://user-images.githubusercontent.com/58821700/94357919-44c60800-0073-11eb-9522-805280d06df3.gif)
+
+## Telas
+
+-Login
+
+![Screenshot_2020-09-27 Figma(2)](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
+
+-Cadastro Motorista
+
+![Screenshot_2020-09-27 Figma](https://user-images.githubusercontent.com/58821700/94358654-f61b6c80-0078-11eb-9004-2c3c9b8b7b82.png)
+
+-Cadastro de veículos
+
+![Screenshot_2020-09-27 Figma(1)](https://user-images.githubusercontent.com/58821700/94358657-ffa4d480-0078-11eb-9d40-66d968191564.png)
+
+-Tela principal do perfil administrativo e listagem de colaboradores
+
+![Screenshot_2020-09-27 Figma(3)](https://user-images.githubusercontent.com/58821700/94358666-19deb280-0079-11eb-943a-db52ada11e60.png)
