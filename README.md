@@ -123,6 +123,8 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ### Modelo Lógico
 
+![logico  PI](https://user-images.githubusercontent.com/67328620/94372430-b9c92a00-00d3-11eb-89ea-517a9357647f.png)
+
 ### Modelo Físico
 
 O Modelo Físico foi feito utilizando o brModelo
