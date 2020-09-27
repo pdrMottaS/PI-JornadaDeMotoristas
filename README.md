@@ -1,9 +1,30 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
 
-Na sprint zero começamos a criação de um REST API com Spring Boot para o controle de motoristas e vaículos além de login para o perfil administrador, seguindo o seguinte Story Card:
+## Objetivo
+
+construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
+
+## Grupo
+
+* Guilherme Perfeito (PO)
+* Pedro Motta (Master SCRUM)
+* Nicholas Roque (DEV Team)
+* Vitor Alexandre (DEV Team)
+* Wagner Kenji (DEV Team)
+* João Vitor Sales (DEV Team)
+* Lucas Lima Chaves (DEV Team)
+* Levi Motta (DEV Team)
+
+## Story Cards
 
 ![Card 1](https://user-images.githubusercontent.com/58821700/94357549-23afe800-0070-11eb-945e-5814d8d82ebe.png)
+
+![Card 1(1)](https://user-images.githubusercontent.com/58821700/94359277-827b5e80-007c-11eb-814a-07e8219312c7.png)
+
+![Card 1(2)](https://user-images.githubusercontent.com/58821700/94359279-83ac8b80-007c-11eb-8eec-c0f22f5486f1.png)
+
+![Card 1(3)](https://user-images.githubusercontent.com/58821700/94359281-84ddb880-007c-11eb-9cc0-f47a2801c029.png)
 
 ## Execução
 ### CRUD Motorista
