@@ -99,11 +99,19 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Cadastro Motorista
 
-![Screenshot_2020-09-27 Figma](https://user-images.githubusercontent.com/58821700/94358654-f61b6c80-0078-11eb-9004-2c3c9b8b7b82.png)
+![Tela de Cadastro do Motorista](https://user-images.githubusercontent.com/67328620/94373585-b38b7b80-00dc-11eb-94a7-cc6174178da5.png)
+
+-Cadastro Financeiro
+
+![Tela de Cadastro do Financeiro](https://user-images.githubusercontent.com/67328620/94373584-b38b7b80-00dc-11eb-8275-2d2d72bed5bd.png)
+
+-Cadastro Administrativo
+
+![Tela de Cadastro do Administrativo](https://user-images.githubusercontent.com/67328620/94373583-b25a4e80-00dc-11eb-97db-672925c923dd.png)
 
 -Cadastro de veículos
 
-![Screenshot_2020-09-27 Figma(1)](https://user-images.githubusercontent.com/58821700/94358657-ffa4d480-0078-11eb-9d40-66d968191564.png)
+![Tela de Cadastro do Veículo](https://user-images.githubusercontent.com/67328620/94373586-b4241200-00dc-11eb-9508-0567e257ef11.png)
 
 -Tela principal do perfil administrativo e listagem de colaboradores
 
