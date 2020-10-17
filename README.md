@@ -126,7 +126,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Tela principal do setor financeiro
 
-![Área de trabalho financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
+![Área de trabalho do financeiro](https://user-images.githubusercontent.com/67328620/96355568-3b9bea00-10b9-11eb-9e09-1888cc8ad1d9.jpg)
 
 ## Modelo de Dados
 
