@@ -115,7 +115,11 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Tela principal do perfil administrativo e listagem de colaboradores
 
-![Screenshot_2020-09-27 Figma(3)](https://user-images.githubusercontent.com/58821700/94358666-19deb280-0079-11eb-943a-db52ada11e60.png)
+![Área de trabalho administrativo](https://user-images.githubusercontent.com/67328620/96355242-d1357a80-10b5-11eb-8a5f-d1e4b923b8ea.jpg)
+
+- Tela principal do gerente
+
+![Área de trabalho gerente)](https://user-images.githubusercontent.com/67328620/96355243-d266a780-10b5-11eb-9164-13490e28ae88.jpg)
 
 -Tela principal do motorista
 
@@ -123,7 +127,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Tela principal do setor financeiro
 
-![Screenshot_2020-09-27 Figma(6)](https://user-images.githubusercontent.com/58821700/94359944-55c94600-0080-11eb-8a89-00bd291aa4db.png)
+![Área de trabalho financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
 
 ## Modelo de Dados
 
