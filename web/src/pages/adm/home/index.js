@@ -132,8 +132,8 @@ function AdmPage(){
             <section>
                 {(viagens.length>0)?(
                     <div className="lista-resultados">
-                        <div className="colaborador-pesquisa" id="viagem-list">
                             {viagens.map(viagem=>(
+                                <div className="colaborador-pesquisa" id="viagem-list" key={viagem.id}>
                                 <div key={viagem.id}>
                                     <div className="viagem-informacao">
                                         <label>ID da Jornada: {viagem.id}</label> 
@@ -145,8 +145,8 @@ function AdmPage(){
                                         <label>Placa do veículo: {viagem.veiculo[0].placa}</label>
                                     </div>
                                 </div>
+                                </div>
                             ))}
-                        </div>
                     </div>
                 ):(
                     <h2 style={{textAlign:"center"}}>Nenhuma viagem agendada</h2>
