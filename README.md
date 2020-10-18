@@ -45,27 +45,6 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Sprint 2
 
-## Execução
-### Adiministrativo
-
--Cadastrar colaboradores
-
--Editar dados de colaboradores
-
--Listar colaboradores
-
--Excluir colaboradores
-
--Sistema de login
-
--Cadastro de viagem
-
--Visualizar viagens
-
--Editar viagens
-
--Excluir viagens
-
 ## Funcionalidades
 
 Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
