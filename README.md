@@ -49,11 +49,32 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ![Card da sprint 4](https://user-images.githubusercontent.com/67328620/96373657-61ba9c00-1144-11eb-87c0-78842effe629.png)
 
-## Sprint 2
-
 ## Telas no React
 
-Da sprint anterior para essa modificamos o design dos formulários das telas da área de tarbalho do administrativo e financeiro e adicionamos a tela da área de trabalho do gerente.
+-Home
+
+![Screenshot_2020-09-27 Figma(4)](https://user-images.githubusercontent.com/58821700/94359958-637ecb80-0080-11eb-9b12-4469e18ba3fc.png)
+
+-Login
+
+![Screenshot_2020-09-27 Figma(2)](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
+
+-Cadastro Motorista
+
+![Tela de Cadastro do Motorista](https://user-images.githubusercontent.com/67328620/94373585-b38b7b80-00dc-11eb-94a7-cc6174178da5.png)
+
+-Cadastro Financeiro
+
+![Tela de Cadastro do Financeiro](https://user-images.githubusercontent.com/67328620/94373584-b38b7b80-00dc-11eb-8275-2d2d72bed5bd.png)
+
+-Cadastro Administrativo
+
+![Tela de Cadastro do Administrativo](https://user-images.githubusercontent.com/67328620/94373583-b25a4e80-00dc-11eb-97db-672925c923dd.png)
+
+-Cadastro de veículos
+
+![Tela de Cadastro do veiculo](https://user-images.githubusercontent.com/67328620/94374045-e3884e00-00df-11eb-9495-2b849dc76b2c.png)
+
 
 -Tela principal do perfil administrativo e listagem de colaboradores
 
