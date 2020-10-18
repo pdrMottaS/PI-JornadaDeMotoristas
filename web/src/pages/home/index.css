@@ -1,0 +1,169 @@
+.imagem-caminhao{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    padding-top: 14%;
+    padding-bottom: 14%;
+    object-fit: cover;
+    object-position: center;
+    
+
+    background: url(../../assets/caminhao-home.jpg);
+    background-size: cover;
+}
+
+.logo-home{
+    position: absolute;
+    height: 28%;
+    right:4%;
+    top: 1%;
+}
+
+.quadrado-sobre{
+    position: relative;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    width: 75%;
+    height: 40%;
+    left: 7.5%;
+    right: 7.5%;
+    top:22.5%;
+    bottom: 22.5%;
+
+    background: #101010;
+    mix-blend-mode: hard-light;
+    border: 0.063rem solid #000000;
+    border-radius: 35px;
+}
+
+.titulo-sobre-home{
+    font-family: 'Actor',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.563rem;
+    line-height: 2.688rem;
+    margin-bottom: 0.375rem;
+    text-align: center;
+
+    color: #FEFEFE;
+}
+
+.texto-sobre-home{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-align: justify;
+
+    color: #fefefe;
+
+}
+
+.barra-home{
+    position: relative;
+    width: 100%;
+    height: 2.813rem;
+
+    margin-top: 2%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    background: #2045C8;
+}
+
+.texto-barra{
+
+    font-family: 'Actor',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+ 
+
+    color: #FFFFFF;
+}
+
+.botao-barra{
+    position: relative;
+
+    margin-left: 4%;
+
+    height: 2.5rem;
+    width: 7.5rem;
+    padding: 0.125rem;
+
+    background: #40BF13;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.corpo-home{
+    margin-top: 10%;
+}
+
+.icones-texto-home{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    position: relative;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.icone-home{
+
+    width: 10%;
+    height: 10%;
+    padding: 2%;
+    border-radius: 100%;
+    margin-left: 1%;
+
+    margin-right: 6%;
+
+    background: #2045C8;
+    
+}
+
+.icone-caminhao-home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-home{
+    position: relative;
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    /* identical to box height */
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #000000;
+    
+}
+
+.texto-sobre-home::selection{
+    background: #101010;
+}

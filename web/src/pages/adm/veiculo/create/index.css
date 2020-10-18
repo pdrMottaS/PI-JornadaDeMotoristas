@@ -1,0 +1,80 @@
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit button{
+    border: none;
+    color: #ffffff;
+    padding: 4px 120px;
+    background: #BD0C2C;
+    margin-bottom: 2rem;
+}
+h4#msg-cadastro{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+.imagem-cadastro{
+    position: absolute;
+    right: 12%;
+    top: 25%;
+    background-color: #DCDADA;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.imagem-cadastro input{
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    
+
+}
+
+.frase-imagem-cadastro{
+    font-family: 'Actor',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+    margin-top: 3%;
+
+    color: #000000;
+
+}
+
+.content{
+    padding: 20px;
+}
+
+.content .input-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.content .input-control label{
+    font-family: 'Actor', sans-serif;
+}
+
+.content .input-control input{
+    border: none;
+    height: 20px;
+    padding: 8px;
+    background: #DCDADA;
+    width: 50%;
+}
