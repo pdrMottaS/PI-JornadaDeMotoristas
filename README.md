@@ -18,16 +18,18 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Story Cards
 
-![Card 1](https://user-images.githubusercontent.com/58821700/94357549-23afe800-0070-11eb-945e-5814d8d82ebe.png)
+![Card da sprint 1](https://user-images.githubusercontent.com/67328620/96372933-c9221d00-113f-11eb-9cb3-695424aa4d81.png)
 
-![Card 1(1)](https://user-images.githubusercontent.com/58821700/94359277-827b5e80-007c-11eb-814a-07e8219312c7.png)
+![Card da sprint 2](https://user-images.githubusercontent.com/67328620/96373097-ab08ec80-1140-11eb-8580-b779855b9765.png)
 
-![Card 1(2)](https://user-images.githubusercontent.com/58821700/94359279-83ac8b80-007c-11eb-8eec-c0f22f5486f1.png)
+![Card da sprint 3](https://user-images.githubusercontent.com/67328620/96373658-62533280-1144-11eb-8262-a5f84017802b.png)
 
-![Card 1(3)](https://user-images.githubusercontent.com/58821700/94359281-84ddb880-007c-11eb-9cc0-f47a2801c029.png)
+![Card da sprint 4](https://user-images.githubusercontent.com/67328620/96373657-61ba9c00-1144-11eb-87c0-78842effe629.png)
+
+## Sprint 2
 
 ## Execução
-### CRUD Motorista
+### Adiministrativo
 
 -Create
 
@@ -87,7 +89,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ![login](https://user-images.githubusercontent.com/58821700/94357919-44c60800-0073-11eb-9522-805280d06df3.gif)
 
-## Telas
+## Telas no React
 
 -Home
 
@@ -123,11 +125,11 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Tela principal do motorista
 
-![Screenshot_2020-09-27 Figma(5)](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
+![Área de trabalho do motorista](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
 
 -Tela principal do setor financeiro
 
-![Área de trabalho financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
+![Área de trabalho do financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
 
 ## Modelo de Dados
 
