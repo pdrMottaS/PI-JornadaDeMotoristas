@@ -1,9 +1,10 @@
 export default function isAuth(){
     const token = localStorage.getItem("token");
+    var res;
     if(token){
-        var res = true;
+        res = true;
     }else{
-        var res = false;
+        res = false;
     }
     return res;
 }
