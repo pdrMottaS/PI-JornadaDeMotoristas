@@ -1,7 +1,7 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
 
-## Objetivo Projeto Geral
+## Objetivo do Projeto
 
 construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
@@ -110,10 +110,6 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 -Tela principal do perfil administrativo e listagem de colaboradores
 
 ![Área de trabalho do administrativo)](https://user-images.githubusercontent.com/67328620/96355395-a51af900-10b7-11eb-84c2-85198b288890.jpg)
-
-- Tela principal do gerente
-
-![Área de trabalho do gerente](https://user-images.githubusercontent.com/67328620/96355568-3b9bea00-10b9-11eb-9e09-1888cc8ad1d9.jpg)
 
 -Tela principal do motorista
 
