@@ -1,7 +1,7 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
-abc
-## Objetivo
+
+## Objetivo Projeto Geral
 
 construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
@@ -16,15 +16,9 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 * Lucas Lima Chaves (DEV Team)
 * Levi Motta (DEV Team)
 
-## Story Cards
+## Objetivo da Sprint 1
 
-![Card 1](https://user-images.githubusercontent.com/58821700/94357549-23afe800-0070-11eb-945e-5814d8d82ebe.png)
-
-![Card 1(1)](https://user-images.githubusercontent.com/58821700/94359277-827b5e80-007c-11eb-814a-07e8219312c7.png)
-
-![Card 1(2)](https://user-images.githubusercontent.com/58821700/94359279-83ac8b80-007c-11eb-8eec-c0f22f5486f1.png)
-
-![Card 1(3)](https://user-images.githubusercontent.com/58821700/94359281-84ddb880-007c-11eb-9cc0-f47a2801c029.png)
+![Card da Sprint 1](https://user-images.githubusercontent.com/67328620/96372933-c9221d00-113f-11eb-9cb3-695424aa4d81.png)
 
 ## Execução
 ### CRUD Motorista
@@ -91,11 +85,11 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Home
 
-![Screenshot_2020-09-27 Figma(4)](https://user-images.githubusercontent.com/58821700/94359958-637ecb80-0080-11eb-9b12-4469e18ba3fc.png)
+![Tela Home](https://user-images.githubusercontent.com/58821700/94359958-637ecb80-0080-11eb-9b12-4469e18ba3fc.png)
 
 -Login
 
-![Screenshot_2020-09-27 Figma(2)](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
+![Tela Login](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
 
 -Cadastro Motorista
 
@@ -123,7 +117,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 -Tela principal do motorista
 
-![Screenshot_2020-09-27 Figma(5)](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
+![Àrea de trabalho do motorista](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
 
 -Tela principal do setor financeiro
 
