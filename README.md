@@ -6,15 +6,37 @@
 construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
 ## Grupo
+#### Guilherme Perfeito (PO)
+* https://github.com/GuilhermePerfeito​
+* https://www.linkedin.com/in/guilherme-perfeito-a76729168/
 
-* Guilherme Perfeito (PO)
-* Pedro Motta (Master SCRUM)
-* Nicholas Roque (DEV Team)
-* Vitor Alexandre Vargas dos Santos (DEV Team)
-* Wagner Kenji (DEV Team)
-* João Vitor Sales (DEV Team)
-* Lucas Lima Chaves (DEV Team)
-* Levi Motta (DEV Team)
+#### Pedro Motta (Master SCRUM)
+* https://github.com/pdrMottaS​
+* https://www.linkedin.com/in/pedro-motta-7471021a9/
+
+#### Nicholas Roque (DEV Team)
+* https://github.com/NicholasRoque​
+* https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/
+
+#### Vitor Alexandre Vargas dos Santos (DEV Team)
+* https://github.com/Vitoglok
+* https://www.linkedin.com/in/vitor-alexandre-0b63771b2/
+
+#### Wagner Kenji (DEV Team)
+* https://github.com/UmCaraDaNet​
+* https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/
+
+#### João Vitor Sales (DEV Team)
+* https://github.com/joao-sales1405​
+* https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2
+
+#### Lucas Lima Chaves (DEV Team)
+* https://github.com/Lucas-Chaves​
+* https://www.linkedin.com/in/lucas-chaves-24312391
+
+#### Levi Motta (DEV Team)
+* https://github.com/levizoca
+* https://www.linkedin.com/in/levi-motta-5001a2173/
 
 ## Objetivo da Sprint 1
 
