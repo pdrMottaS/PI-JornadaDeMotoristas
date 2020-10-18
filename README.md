@@ -170,7 +170,136 @@ Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
 
 ## Modelo de Dados
 
-O modelo de dados não sofreu nenhuma alteração da sprint anterior para essa. 
+### Modelo Conceitual
+
+![conceito PI](https://user-images.githubusercontent.com/67328620/94372431-bafa5700-00d3-11eb-8215-fd64f7a7b94f.png)
+
+### Modelo Lógico
+
+![logico  PI](https://user-images.githubusercontent.com/67328620/94372430-b9c92a00-00d3-11eb-89ea-517a9357647f.png)
+
+Os tipos de dados da imagem acima são meramente ilustrativos.
+
+### Modelo Físico
+
+O Modelo Físico foi feito utilizando o brModelo
+
+CREATE TABLE Motorista (  
+Nome completo VARCHAR(60),  
+CPF VARCHAR(15),  
+ID do veiculo VARCHAR(10),  
+RNTRC VARCHAR(15) PRIMARY KEY,  
+Email VARCHAR(40),  
+Telefone VARCHAR(10),  
+IsGerente boolean,  
+ID VARCHAR(10)  
+)  
+
+CREATE TABLE Escala (  
+Turno VARCHAR(10),  
+Dias de trabalho VARCHAR(10),  
+Carga Horária diaria VARCHAR(20),  
+Folga VARCHAR(10)  
+)  
+
+CREATE TABLE Veiculo (  
+ID do rastreador VARCHAR(10),  
+Versão VARCHAR(10),  
+Rastreador VARCHAR(10),  
+Placa VARCHAR(10) PRIMARY KEY,  
+Disponibilidade boolean  
+)  
+
+CREATE TABLE Alertas (  
+Ocorrencia VARCHAR(10),  
+Sigla VARCHAR(10),  
+Icone VARCHAR(10),  
+regra/parametro VARCHAR(30),  
+Descrição(nomenclatura) VARCHAR(100) PRIMARY KEY,  
+RNTRC VARCHAR(15),  
+FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC)  
+)  
+
+CREATE TABLE Status (  
+Inicio de jornada VARCHAR(10),  
+fim de jornada VARCHAR(10)  
+)  
+
+CREATE TABLE Plano de negocios (  
+ID do plano VARCHAR(10) PRIMARY KEY,  
+Descrição VARCHAR(10),  
+Contratante VARCHAR(10)  
+)  
+
+CREATE TABLE Jornada (  
+tempo de trabalho VARCHAR(10),  
+tempo de refeição VARCHAR(10),  
+tempo de descanso VARCHAR(10),  
+tempo de espera VARCHAR(10),  
+ID do plano VARCHAR(10),  
+FOREIGN KEY(ID do plano) REFERENCES Plano de negocios (ID do plano)  
+)  
+
+CREATE TABLE Administrativo (  
+Matricula VARCHAR(10) PRIMARY KEY,  
+Nome completo VARCHAR(60),  
+CPF VARCHAR(15),  
+Telefone VARCHAR(10),  
+Email VARCHAR(40),  
+ID VARCHAR(10)  
+)  
+
+CREATE TABLE Login (  
+ID VARCHAR(10) PRIMARY KEY,  
+Senha VARCHAR(20),  
+Nivel VARCHAR(10),  
+Login VARCHAR(40)  
+)  
+
+CREATE TABLE Financeiro (  
+CPF VARCHAR(15),  
+Matricula VARCHAR(10) PRIMARY KEY,  
+Telefone VARCHAR(15),  
+Email VARCHAR(40),  
+Nome_completo VARCHAR(60),  
+ID VARCHAR(10),  
+FOREIGN KEY(ID) REFERENCES Login (ID)  
+)  
+
+CREATE TABLE Salário (  
+Proximo pagamento VARCHAR(10),  
+Ultimo pagamento VARCHAR(10),  
+ID VARCHAR(10) PRIMARY KEY  
+)  
+
+CREATE TABLE Possui (  
+RNTRC VARCHAR(15),  
+Placa VARCHAR(12),  
+FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC).  
+FOREIGN KEY(Placa) REFERENCES Veiculo (Placa)  
+)  
+
+CREATE TABLE Opera (  
+Matricula VARCHAR(10),  
+FOREIGN KEY(Matricula) REFERENCES Administrativo (Matricula)  
+)  
+
+CREATE TABLE Gerencia (  
+ID VARCHAR(10),  
+Matricula VARCHAR(10),  
+FOREIGN KEY(ID) REFERENCES Salário (ID),    
+FOREIGN KEY(Matricula) REFERENCES Financeiro (Matricula)  
+)  
+
+ALTER TABLE Possui ADD FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC)  
+ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
+ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
+ALTER TABLE Gerencia ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
+ALTER TABLE Gerencia ADD FOREIGN KEY(Matricula) REFERENCES Financeiro (Matricula)  
+ALTER TABLE Jornada ADD FOREIGN KEY(ID do plano) REFERENCES Plano de negocios (ID do plano)  
+ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
+ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
+ALTER TABLE Financeiro ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
 
 ## Requisitos para funcionamento
 
