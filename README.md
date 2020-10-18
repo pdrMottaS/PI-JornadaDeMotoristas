@@ -45,6 +45,21 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Sprint 2
 
+## Telas no React
+  Da sprint anterior para essa passamos as telas que anteriormente estavam no figma para o react.  
+Durante a passagem modificamos o design dos formulários das telas da área de tarbalho do administrativo e financeiro e adicionamos a tela da área de trabalho do gerente.
+
+-Tela principal do perfil administrativo e listagem de colaboradores
+
+![Área de trabalho do administrativo)](https://user-images.githubusercontent.com/67328620/96355395-a51af900-10b7-11eb-84c2-85198b288890.jpg)
+@@ -108,10 +63,6 @@ Da sprint anterior para essa modificamos o design dos formulários das telas da
+
+![Área de trabalho do gerente](https://user-images.githubusercontent.com/67328620/96355568-3b9bea00-10b9-11eb-9e09-1888cc8ad1d9.jpg)
+
+-Tela principal do setor financeiro
+
+![Área de trabalho financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
+
 ## Funcionalidades
 
 Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
