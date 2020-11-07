@@ -51,46 +51,25 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Telas no React
 
--Home
+* [Home](https://i.imgur.com/ecAWESY.png)
 
-![Screenshot_2020-09-27 Figma(4)](https://user-images.githubusercontent.com/58821700/94359958-637ecb80-0080-11eb-9b12-4469e18ba3fc.png)
+* [Login](https://i.imgur.com/OSvIG22.png)
 
--Login
+* [Home Motorista](https://i.imgur.com/J2hPJAM.png)
 
-![Screenshot_2020-09-27 Figma(2)](https://user-images.githubusercontent.com/58821700/94358648-eac84100-0078-11eb-8a42-8fa644d4e4b1.png)
+* [Home Financeiro](https://i.imgur.com/iBx32ZJ.jpg)
 
--Cadastro Motorista
+* [Home Gerente](https://i.imgur.com/PzwtBvc.jpg)
 
-![Tela de Cadastro do Motorista](https://user-images.githubusercontent.com/67328620/94373585-b38b7b80-00dc-11eb-94a7-cc6174178da5.png)
+* [Home Administrativo](https://i.imgur.com/o7MfI66.jpg)
 
--Cadastro Financeiro
+* [Cadastro de Veículo](https://i.imgur.com/bSlRNpL.png)
 
-![Tela de Cadastro do Financeiro](https://user-images.githubusercontent.com/67328620/94373584-b38b7b80-00dc-11eb-8275-2d2d72bed5bd.png)
+* [Cadastro do setor financeiro](https://i.imgur.com/SkZ6tDh.png)
 
--Cadastro Administrativo
+* [Cadastro do setor administrador](https://i.imgur.com/K96HCOu.png)
 
-![Tela de Cadastro do Administrativo](https://user-images.githubusercontent.com/67328620/94373583-b25a4e80-00dc-11eb-97db-672925c923dd.png)
-
--Cadastro de veículos
-
-![Tela de Cadastro do veiculo](https://user-images.githubusercontent.com/67328620/94374045-e3884e00-00df-11eb-9495-2b849dc76b2c.png)
-
-
--Tela principal do perfil administrativo e listagem de colaboradores
-
-![Área de trabalho do administrativo)](https://user-images.githubusercontent.com/67328620/96355395-a51af900-10b7-11eb-84c2-85198b288890.jpg)
-
-- Tela principal do gerente
-
-![Área de trabalho do gerente](https://user-images.githubusercontent.com/67328620/96355568-3b9bea00-10b9-11eb-9e09-1888cc8ad1d9.jpg)
-
--Tela principal do motorista
-
-![Screenshot_2020-09-27 Figma(5)](https://user-images.githubusercontent.com/58821700/94359919-42b67600-0080-11eb-8eb5-b13f97db9ba1.png)
-
--Tela principal do setor financeiro
-
-![Área de trabalho financeiro](https://user-images.githubusercontent.com/67328620/96355244-d2ff3e00-10b5-11eb-9937-2dcf2c0250f3.jpg)
+* [Cadastro do setor motorista](https://i.imgur.com/KMU4mgX.png)
 
 ## Funcionalidades
 
