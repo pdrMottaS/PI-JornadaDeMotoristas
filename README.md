@@ -8,7 +8,7 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 ## Grupo
 
 #### Guilherme Perfeito (PO)
-* [GitHub](https://github.com/GuilhermePerfeito)
+* [![image](https://user-images.githubusercontent.com/67328620/98448964-b1223580-210e-11eb-862f-62b00d39de2d.png)](https://github.com/GuilhermePerfeito)
 * [Linkedin](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
 
 #### Pedro Motta (Master SCRUM)
