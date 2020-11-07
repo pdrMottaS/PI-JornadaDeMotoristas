@@ -8,46 +8,40 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 ## Grupo
 
 #### Guilherme Perfeito (PO)
-* https://github.com/GuilhermePerfeito​
-* https://www.linkedin.com/in/guilherme-perfeito-a76729168/
+* [GitHub](https://github.com/GuilhermePerfeito)
+* [Linkedin](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
 
 #### Pedro Motta (Master SCRUM)
-* https://github.com/pdrMottaS​
-* https://www.linkedin.com/in/pedro-motta-7471021a9/
+* [GitHub](https://github.com/pdrMottaS)
+* [Linkedin](https://www.linkedin.com/in/pedro-motta-7471021a9/)
 
 #### Nicholas Roque (DEV Team)
-* https://github.com/NicholasRoque​
-* https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/
+* [GitHub](https://github.com/NicholasRoque)
+* [Linkedin](https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/)
 
 #### Vitor Alexandre Vargas dos Santos (DEV Team)
-* https://github.com/Vitoglok
-* https://www.linkedin.com/in/vitor-alexandre-0b63771b2/
+* [GitHub](https://github.com/Vitoglok)
+* [Linkedin](https://www.linkedin.com/in/vitor-alexandre-0b63771b2/)
 
 #### Wagner Kenji (DEV Team)
-* https://github.com/UmCaraDaNet​
-* https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/
+* [GitHub](https://github.com/UmCaraDaNet)
+* [Linkedin](https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/)
 
 #### João Vitor Sales (DEV Team)
-* https://github.com/joao-sales1405​
-* https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2
+* [GitHub](https://github.com/joao-sales1405)
+* [Linkedin](https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2)
 
 #### Lucas Lima Chaves (DEV Team)
-* https://github.com/Lucas-Chaves​
-* https://www.linkedin.com/in/lucas-chaves-24312391
+* [GitHub](https://github.com/Lucas-Chaves)
+* [Linkedin](https://www.linkedin.com/in/lucas-chaves-24312391)
 
 #### Levi Motta (DEV Team)
-* https://github.com/levizoca
-* https://www.linkedin.com/in/levi-motta-5001a2173/
+* [GitHub](https://github.com/levizoca)
+* [Linkedin](https://www.linkedin.com/in/levi-motta-5001a2173/)
 
-## Story Cards
-
-![Card da sprint 1](https://user-images.githubusercontent.com/67328620/96372933-c9221d00-113f-11eb-9cb3-695424aa4d81.png)
-
-![Card da sprint 2](https://user-images.githubusercontent.com/67328620/96373097-ab08ec80-1140-11eb-8580-b779855b9765.png)
+## Story Card
 
 ![Card da sprint 3](https://user-images.githubusercontent.com/67328620/96373658-62533280-1144-11eb-8262-a5f84017802b.png)
-
-![Card da sprint 4](https://user-images.githubusercontent.com/67328620/96373657-61ba9c00-1144-11eb-87c0-78842effe629.png)
 
 ## Telas no React
 
@@ -106,136 +100,7 @@ Obs: abrir os links em outras guias.
 
 ## Modelo de Dados
 
-### Modelo Conceitual
-
-![conceito PI](https://user-images.githubusercontent.com/67328620/94372431-bafa5700-00d3-11eb-8215-fd64f7a7b94f.png)
-
-### Modelo Lógico
-
-![logico  PI](https://user-images.githubusercontent.com/67328620/94372430-b9c92a00-00d3-11eb-89ea-517a9357647f.png)
-
-Os tipos de dados da imagem acima são meramente ilustrativos.
-
-### Modelo Físico
-
-O Modelo Físico foi feito utilizando o brModelo
-
-CREATE TABLE Motorista (  
-Nome completo VARCHAR(60),  
-CPF VARCHAR(15),  
-ID do veiculo VARCHAR(10),  
-RNTRC VARCHAR(15) PRIMARY KEY,  
-Email VARCHAR(40),  
-Telefone VARCHAR(10),  
-IsGerente boolean,  
-ID VARCHAR(10)  
-)  
-
-CREATE TABLE Escala (  
-Turno VARCHAR(10),  
-Dias de trabalho VARCHAR(10),  
-Carga Horária diaria VARCHAR(20),  
-Folga VARCHAR(10)  
-)  
-
-CREATE TABLE Veiculo (  
-ID do rastreador VARCHAR(10),  
-Versão VARCHAR(10),  
-Rastreador VARCHAR(10),  
-Placa VARCHAR(10) PRIMARY KEY,  
-Disponibilidade boolean  
-)  
-
-CREATE TABLE Alertas (  
-Ocorrencia VARCHAR(10),  
-Sigla VARCHAR(10),  
-Icone VARCHAR(10),  
-regra/parametro VARCHAR(30),  
-Descrição(nomenclatura) VARCHAR(100) PRIMARY KEY,  
-RNTRC VARCHAR(15),  
-FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC)  
-)  
-
-CREATE TABLE Status (  
-Inicio de jornada VARCHAR(10),  
-fim de jornada VARCHAR(10)  
-)  
-
-CREATE TABLE Plano de negocios (  
-ID do plano VARCHAR(10) PRIMARY KEY,  
-Descrição VARCHAR(10),  
-Contratante VARCHAR(10)  
-)  
-
-CREATE TABLE Jornada (  
-tempo de trabalho VARCHAR(10),  
-tempo de refeição VARCHAR(10),  
-tempo de descanso VARCHAR(10),  
-tempo de espera VARCHAR(10),  
-ID do plano VARCHAR(10),  
-FOREIGN KEY(ID do plano) REFERENCES Plano de negocios (ID do plano)  
-)  
-
-CREATE TABLE Administrativo (  
-Matricula VARCHAR(10) PRIMARY KEY,  
-Nome completo VARCHAR(60),  
-CPF VARCHAR(15),  
-Telefone VARCHAR(10),  
-Email VARCHAR(40),  
-ID VARCHAR(10)  
-)  
-
-CREATE TABLE Login (  
-ID VARCHAR(10) PRIMARY KEY,  
-Senha VARCHAR(20),  
-Nivel VARCHAR(10),  
-Login VARCHAR(40)  
-)  
-
-CREATE TABLE Financeiro (  
-CPF VARCHAR(15),  
-Matricula VARCHAR(10) PRIMARY KEY,  
-Telefone VARCHAR(15),  
-Email VARCHAR(40),  
-Nome_completo VARCHAR(60),  
-ID VARCHAR(10),  
-FOREIGN KEY(ID) REFERENCES Login (ID)  
-)  
-
-CREATE TABLE Salário (  
-Proximo pagamento VARCHAR(10),  
-Ultimo pagamento VARCHAR(10),  
-ID VARCHAR(10) PRIMARY KEY  
-)  
-
-CREATE TABLE Possui (  
-RNTRC VARCHAR(15),  
-Placa VARCHAR(12),  
-FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC).  
-FOREIGN KEY(Placa) REFERENCES Veiculo (Placa)  
-)  
-
-CREATE TABLE Opera (  
-Matricula VARCHAR(10),  
-FOREIGN KEY(Matricula) REFERENCES Administrativo (Matricula)  
-)  
-
-CREATE TABLE Gerencia (  
-ID VARCHAR(10),  
-Matricula VARCHAR(10),  
-FOREIGN KEY(ID) REFERENCES Salário (ID),    
-FOREIGN KEY(Matricula) REFERENCES Financeiro (Matricula)  
-)  
-
-ALTER TABLE Possui ADD FOREIGN KEY(RNTRC) REFERENCES Motorista (RNTRC)  
-ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
-ALTER TABLE Motorista ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
-ALTER TABLE Gerencia ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
-ALTER TABLE Gerencia ADD FOREIGN KEY(Matricula) REFERENCES Financeiro (Matricula)  
-ALTER TABLE Jornada ADD FOREIGN KEY(ID do plano) REFERENCES Plano de negocios (ID do plano)  
-ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
-ALTER TABLE Administrativo ADD FOREIGN KEY(ID) REFERENCES Salário (ID)  
-ALTER TABLE Financeiro ADD FOREIGN KEY(ID) REFERENCES Login (ID)  
+O modelo de dados não sofreu nenhuma alteração da sprint anterior para essa. 
 
 ## Requisitos para funcionamento
 
