@@ -1,11 +1,13 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
 
+![loginh](https://user-images.githubusercontent.com/67328620/98449978-4cb7a400-2117-11eb-8990-635784a3bdbb.jpg)
+
 ## Objetivo
 
 construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
-## Grupo ![Logo Psycho](https://user-images.githubusercontent.com/67328620/98449950-08c49f00-2117-11eb-9a3d-c81037691023.jpg)
+## Grupo 
 
 #### Guilherme Perfeito (PO)
 [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/GuilhermePerfeito) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
