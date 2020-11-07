@@ -51,6 +51,8 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Telas no React
 
+Obs: abrir os links em outras guias.
+
 * [Home](https://i.imgur.com/ecAWESY.png)
 
 * [Login](https://i.imgur.com/OSvIG22.png)
@@ -75,53 +77,32 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
 
+Obs: abrir os links em outras guias.
+
 ### Rotas Públicas
 
--Rotas Publicas: é posssível navegar por rotas publicas sem estar autenticado
+* [Rotas Públicas](https://i.imgur.com/C9hhHXt.gifv): é posssível navegar por rotas publicas sem estar autenticado
 
-![publicRoutes-2020-10-18-194508](https://user-images.githubusercontent.com/58821700/96388425-11146480-117f-11eb-96cc-bf1f1054432e.gif)
+* [Login Front-end](https://i.imgur.com/R1JAAkd.gifv): é possível realizar o login pelo frontend como um usuário do tipo Administrador
 
--Login pelo Frontend: é possível realizar o login pelo frontend como um usuário do tipo Administrador
-
-![Login-2020-10-18-194656](https://user-images.githubusercontent.com/58821700/96388471-5f296800-117f-11eb-960b-3769e0fbea95.gif)
-
--Login: é possível fazer login de usuários de qualquer tipo
-
-![loginanyUser-2020-10-18-200459](https://user-images.githubusercontent.com/58821700/96388490-86803500-117f-11eb-9379-cea719094a7e.gif)
+* [Login Back-end](https://i.imgur.com/eLj8XNk.gifv): é possível fazer login de usuários de qualquer tipo
 
 ### Rotas privadas (necessário autenticação)
 
--Página inicial com listagem de colaboradores e viagens: é possível  que o usuário autenticado do tipo Administrador acesse essa página
+* [Página inicial com listagem de colaboradores e viagens](https://i.imgur.com/YtmpTow.gifv): é possível  que o usuário autenticado do tipo Administrador acesse essa página
 
-![HomeADM-2020-10-18-194807](https://user-images.githubusercontent.com/58821700/96388573-276ef000-1180-11eb-9b3d-4fb0cd9ab359.gif)
+* [Cadastro de colaboradores](https://i.imgur.com/guekMNT.gifv): é possível criar usuários do tipo Motorista
 
--Criar Usuário pelo frontend: é possível criar usuários do tipo Motorista
+* [Cadastro de colaboradores no back-end](https://i.imgur.com/kVpoi3C.gifv): é possível criar usuários de qualquer tipo
 
-![createUser-2020-10-18-194840](https://user-images.githubusercontent.com/58821700/96388534-e1199100-117f-11eb-8784-6941ea7b6092.gif)
+* [Cadastro de Veículo](https://i.imgur.com/fGeBGMY.gifv)
 
--Criar Usuário: é possível criar usuários de qualquer tipo
+* [Editar Colaboradores](https://i.imgur.com/0dUEGLN.gifv)
 
-![createanyUser-2020-10-18-200337](https://user-images.githubusercontent.com/58821700/96388550-f55d8e00-117f-11eb-805c-fea459a22c8e.gif)
+* [Deletar Colaboradores](https://i.imgur.com/GsUbpGI.gifv)
 
--Cadastrar veículo
-
-![createVeiculo-2020-10-18-194938](https://user-images.githubusercontent.com/58821700/96388623-7ddc2e80-1180-11eb-854c-069963570811.gif)
-
--Editar usuários
-
-![editUser-2020-10-18-195025](https://user-images.githubusercontent.com/58821700/96388584-3b1a5680-1180-11eb-8821-c32fdb9cb4b7.gif)
-
--Deletar usuários
-
-![deleteUser-2020-10-18-195100](https://user-images.githubusercontent.com/58821700/96388590-4a010900-1180-11eb-93e0-b4a4b38ad4a3.gif)
-
--Agendar Jornada de trabalho
-
-![addJornada-2020-10-18-201112](https://user-images.githubusercontent.com/58821700/96388601-5b4a1580-1180-11eb-9157-b5e8881bf6c2.gif)
-
--Fazer logout: uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
-
-![logout-2020-10-18-195146](https://user-images.githubusercontent.com/58821700/96388648-9fd5b100-1180-11eb-9288-655c46281d82.gif)
+* [Agendar Jornada de trabalho](https://i.imgur.com/UTCu3HW.gifv)
+* [Deslogar](https://i.imgur.com/XU8m4DS.gifv): uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
 
 ## Modelo de Dados
 
