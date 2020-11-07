@@ -7,21 +7,29 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Grupo
 
-#### Guilherme Perfeito (PO) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/GuilhermePerfeito) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
+#### Guilherme Perfeito (PO)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/GuilhermePerfeito) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
 
-#### Pedro Motta (Master SCRUM) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/pdrMottaS) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/pedro-motta-7471021a9/)
+#### Pedro Motta (Master SCRUM)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/pdrMottaS) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/pedro-motta-7471021a9/)
 
-#### Nicholas Roque (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/NicholasRoque) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/)
+#### Nicholas Roque (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/NicholasRoque) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/)
 
-#### Vitor Alexandre Vargas dos Santos (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Vitoglok) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/vitor-alexandre-0b63771b2/)
+#### Vitor Alexandre Vargas dos Santos (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Vitoglok) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/vitor-alexandre-0b63771b2/)
 
-#### Wagner Kenji (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/UmCaraDaNet) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/)
+#### Wagner Kenji (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/UmCaraDaNet) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/)
 
-#### João Vitor Sales (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/joao-sales1405) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2)
+#### João Vitor Sales (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/joao-sales1405) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2)
 
-#### Lucas Lima Chaves (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Lucas-Chaves) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/lucas-chaves-24312391)
+#### Lucas Lima Chaves (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Lucas-Chaves) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/lucas-chaves-24312391)
 
-#### Levi Motta (DEV Team) [![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/levizoca) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/levi-motta-5001a2173/)
+#### Levi Motta (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/levizoca) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/levi-motta-5001a2173/)
 
 ## Story Card
 
