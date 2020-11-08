@@ -1,4 +1,4 @@
-package com.iacit.iacit.services;
+package com.iacit.iacit.utils;
 
 import java.util.HashSet;
 import java.util.List;
@@ -12,10 +12,8 @@ import com.iacit.iacit.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
-@Component
-public class RolesService implements CommandLineRunner {
+public class AutoRunner implements CommandLineRunner{
     @Autowired
     RoleRepository roleRepository;
 
@@ -50,9 +48,9 @@ public class RolesService implements CommandLineRunner {
             roleRepository.save(roleMot);
         }
 
-        Optional<Users> user = uRepository.findById("1");
+        Optional<Users> user_adm = uRepository.findById("1");
 
-        if(user.isEmpty()) {
+        if(user_adm.isEmpty()) {
             Users adm = new Users();
             adm.setMatricula("1");
             adm.setLogin("admin");
@@ -68,6 +66,46 @@ public class RolesService implements CommandLineRunner {
             adm.setRoles(rls);
 
             uRepository.save(adm);
+        }
+
+        Optional<Users> user_fin = uRepository.findById("2");
+
+        if(user_fin.isEmpty()) {
+            Users fin = new Users();
+            fin.setMatricula("2");
+            fin.setLogin("finan");
+            fin.setSenha("finan");
+            fin.setNome("FINANCEIRO");
+
+            Roles role = new Roles();
+            role.setId((long)2);
+
+            Set<Roles> rls = new HashSet<>();
+            rls.add(role);
+
+            fin.setRoles(rls);
+
+            uRepository.save(fin);
+        }
+
+        Optional<Users> user_ger = uRepository.findById("3");
+
+        if(user_ger.isEmpty()) {
+            Users ger = new Users();
+            ger.setMatricula("3");
+            ger.setLogin("gerente");
+            ger.setSenha("gerente");
+            ger.setNome("GERENTE");
+
+            Roles role = new Roles();
+            role.setId((long)3);
+
+            Set<Roles> rls = new HashSet<>();
+            rls.add(role);
+
+            ger.setRoles(rls);
+
+            uRepository.save(ger);
         }
 
     }
