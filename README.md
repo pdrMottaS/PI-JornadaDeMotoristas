@@ -41,56 +41,42 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 Obs: abrir os links em outras guias.
 
-* [Home](https://i.imgur.com/ecAWESY.png)
+* [Cadastro de veículos]
 
-* [Login](https://i.imgur.com/OSvIG22.png)
+![tela_veiculo](https://user-images.githubusercontent.com/58821700/98485304-35021d80-21f4-11eb-92dd-b1d534091019.gif)
 
-* [Home Motorista](https://i.imgur.com/J2hPJAM.png)
+* [Cadastro de Jornadas]
 
-* [Home Financeiro](https://i.imgur.com/iBx32ZJ.jpg)
-
-* [Home Gerente](https://i.imgur.com/PzwtBvc.jpg)
-
-* [Home Administrativo](https://i.imgur.com/o7MfI66.jpg)
-
-* [Cadastro de Veículo](https://i.imgur.com/bSlRNpL.png)
-
-* [Cadastro do setor financeiro](https://i.imgur.com/SkZ6tDh.png)
-
-* [Cadastro do setor administrador](https://i.imgur.com/K96HCOu.png)
-
-* [Cadastro do setor motorista](https://i.imgur.com/KMU4mgX.png)
+![tela_jornada](https://user-images.githubusercontent.com/58821700/98485320-54994600-21f4-11eb-90b0-483288b1aa72.gif)
 
 ## Funcionalidades
 
-Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
+Nessa Sprint foi implementado as funcionalidades de jornada e status da mesma.
 
 Obs: abrir os links em outras guias.
 
-### Rotas Públicas
-
-* [Rotas Públicas](https://i.imgur.com/C9hhHXt.gifv): é posssível navegar por rotas publicas sem estar autenticado
-
-* [Login Front-end](https://i.imgur.com/R1JAAkd.gifv): é possível realizar o login pelo frontend como um usuário do tipo Administrador
-
-* [Login Back-end](https://i.imgur.com/eLj8XNk.gifv): é possível fazer login de usuários de qualquer tipo
-
 ### Rotas privadas (necessário autenticação)
 
-* [Página inicial com listagem de colaboradores e viagens](https://i.imgur.com/YtmpTow.gifv): é possível  que o usuário autenticado do tipo Administrador acesse essa página
+* [Adicionar jornada]
 
-* [Cadastro de colaboradores](https://i.imgur.com/guekMNT.gifv): é possível criar usuários do tipo Motorista
+![createJornada](https://user-images.githubusercontent.com/58821700/98485341-8a3e2f00-21f4-11eb-860a-b23a2b2552ce.gif)
 
-* [Cadastro de colaboradores no back-end](https://i.imgur.com/kVpoi3C.gifv): é possível criar usuários de qualquer tipo
+* [Adcionar status]
 
-* [Cadastro de Veículo](https://i.imgur.com/fGeBGMY.gifv)
+![addStatus](https://user-images.githubusercontent.com/58821700/98485355-a3df7680-21f4-11eb-88cf-c5db099ff670.gif)
 
-* [Editar Colaboradores](https://i.imgur.com/0dUEGLN.gifv)
+* [Editar status]
 
-* [Deletar Colaboradores](https://i.imgur.com/GsUbpGI.gifv)
 
-* [Agendar Jornada de trabalho](https://i.imgur.com/UTCu3HW.gifv)
-* [Deslogar](https://i.imgur.com/XU8m4DS.gifv): uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
+![updateStatus](https://user-images.githubusercontent.com/58821700/98485585-49471a00-21f6-11eb-9901-0ac3b4575fc4.gif)
+
+* [Deletar status]
+
+![deleteStatus](https://user-images.githubusercontent.com/58821700/98485592-57953600-21f6-11eb-8013-a46742b338a1.gif)
+
+* [Atribuir status a uma jornada]
+
+![addStatusToJornada](https://user-images.githubusercontent.com/58821700/98485380-cb364380-21f4-11eb-988b-14b29845e83f.gif)
 
 ## Modelo de Dados
 
