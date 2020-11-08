@@ -1,8 +1,10 @@
-import React, { Component, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from "../../../../components/header/index";
 import './index.css'
 import imagemPerfil from "../../../../assets/imagem-perfil.png";
 import {useHistory} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+
 
 import api from "../../../../services/api";
 
@@ -15,7 +17,33 @@ function Createveiculo(){
     const [modelo,setModelo]=useState();
     const [ano,setAno]=useState();
     const [chassi,setChassi]=useState();
+    const [veiculos,setVeiculos]=useState([]);
+
     
+    async function loadVeiculos(){
+        try{
+            const res = await api.get("/veiculo/index",{
+                headers:{
+                    "Authorization":"Bearer "+localStorage.getItem("token")
+                }
+            })
+            var result = [];
+            for(let i in res.data){
+                result.push(
+                    {
+                        chassi:res.data[i].chassi,
+                        placa:res.data[i].placa,
+                        modelo:res.data[i].modelo,
+                        ano:res.data[i].ano
+                    }
+                );
+            }
+            setVeiculos(result);
+        }catch(err){
+
+        }
+    }
+
     async function cadastrarveiculo(e){
         
         e.preventDefault();
@@ -36,11 +64,13 @@ function Createveiculo(){
             }
         )
         alert("Novo veiculo cadastrado");
-        hist.push("/");
             
     }
 
-
+    useEffect(async()=>{
+        loadVeiculos()
+    },[])
+    
     return(
         <div>
             <Header text="Cadastro de Veículo" auth={true}/>
@@ -68,6 +98,29 @@ function Createveiculo(){
                     </div>
                 </div>
             </form> 
+            <p className="frase-adm">Veículos Cadastrados</p>
+            <section>
+                {(veiculos.length>0)?(
+                     <div className="lista-resultados" id="exibirVeiculos">
+                         {veiculos.map(veiculo=>(
+                             <div className="colaborador-pesquisa" key={veiculo.chassi}>
+                                <label className="indice-nome">MODELO:</label>
+                                <label className="dados-pesquisa-nome" >{veiculo.modelo}</label>
+                                <label className="indice-cargo">CHASSI:</label>
+                                <label className="dados-pesquisa-cargo">{veiculo.chassi}</label>
+                                <label className="indice-cargo">ANO:</label>
+                                <label className="dados-pesquisa-cargo">{veiculo.ano}</label>
+                                <label className="indice-cargo">PLACA:</label>
+                                <label className="dados-pesquisa-cargo">{veiculo.placa}</label>
+                                <Link className="botao-perfil" to={"/administrador/veiculo/edit/"+veiculo.placa}>EDITAR</Link>
+                            </div>
+                         ))}
+                     </div>
+                ):(
+                    <h2 style={{textAlign:"center"}}>Nenhum colaborador encontrado</h2>
+                )}
+
+            </section>
         </div>
     );
     

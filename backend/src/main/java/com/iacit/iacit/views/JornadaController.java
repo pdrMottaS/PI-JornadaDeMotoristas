@@ -1,9 +1,13 @@
 package com.iacit.iacit.views;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
+import com.iacit.iacit.models.JornadaStatus;
 import com.iacit.iacit.models.Jornadas;
 import com.iacit.iacit.repository.JornadaRepository;
+import com.iacit.iacit.repository.JornadaStatusRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -28,10 +32,26 @@ public class JornadaController {
     @Autowired
     JornadaRepository jRepository;
 
+    @Autowired
+    JornadaStatusRepository jsRepository;
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Jornadas createJornada(@RequestBody final Jornadas jornada) {
         return jRepository.save(jornada);
+    }
+
+    @PostMapping("{id}/status")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void createStatus(@PathVariable Long id, @RequestBody final JornadaStatus js) {
+        jRepository.findById(id)
+        .map(jExist->{
+            js.setJornada(jExist);
+            jsRepository.save(js);
+            return new ResponseEntity<>("Status adcionado",HttpStatus.OK);
+        })
+        .orElseThrow(()->new ResponseStatusException(HttpStatus.NOT_FOUND,"Jornada não encontrada"));
+        
     }
 
     @GetMapping("index")

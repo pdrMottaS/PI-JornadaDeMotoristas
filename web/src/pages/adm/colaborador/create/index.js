@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import Header from "../../../../components/header/index";
+
 import './index.css'
 import imagemPerfil from "../../../../assets/imagem-perfil.png";
 import api from '../../../../services/api';
 import {useHistory} from 'react-router-dom';
+import getCargo from '../../../../utils/getCargo'
 
-function CreateMotorista(){
+function CreateColaborador(){
+    
 
     const hist = useHistory();
-
     //formulario deve ser um componente para ser usado na página home
     const [nome,setNome]=useState();
     const [cpf,setCpf]=useState();
@@ -16,6 +18,10 @@ function CreateMotorista(){
     const [matricula,setMatricula]=useState();
     const [telefone,setTelefone]=useState();
     const [endereco,setEndereco]=useState();
+    const [inputCargo,setInputCargo]=useState();
+
+    
+
     
     async function cadastrar(e){
         try{
@@ -30,27 +36,30 @@ function CreateMotorista(){
                 senha:cpf,
                 telefone:telefone,
                 roles: [{
-                    id:4
+                    id: Number(inputCargo)
                 }]
             }
+
+            const cargo = getCargo(inputCargo)
+            
             await api.post("/user",user,{
                 headers:{
                     "Authorization":"Bearer "+localStorage.getItem("token")
                 }
             })
-            alert("Novo Motorista cadastrado");
-            hist.push("/");
+            alert("Novo "+cargo+" cadastrado");
+            hist.push("/")
+            
         }catch(err){
-
+            console.log(err);
         }
-        
     }
     
 
     return(
         <div>
-            <Header text="Cadastro de Motorista" auth={true}/>
-            <h4 id="msg-cadastro">Insira os dados cadastrais do Motorista:</h4>
+            <Header text="Cadastro de Colaborador" auth={true}/>
+            <h4 id="msg-cadastro">Insira os dados cadastrais do colaborador:</h4>
             <form onSubmit={cadastrar}>
                 <div className="content">
                     <section className="imagem-cadastro">
@@ -84,14 +93,22 @@ function CreateMotorista(){
                         <label htmlFor="telefone">Telefone:</label>
                         <input type="text" id="telefone" value={telefone} name="cad-telefone" required onChange={e => setTelefone(e.target.value)}/>
                     </div>
+                    <select type="text" value = {inputCargo} name="cad-cargo" required onChange={e => setInputCargo(e.target.value)} id="cad-cargo">
+                        <option value="1" defaultValue>Administrador</option>
+                        <option value="2">Financeiro</option>
+                        <option value="3">Gerente</option>
+                        <option value="4">Motorista</option>
+                    </select>
+                    
                     <div className="submit">
-                        <button type="submit" >CADASTRAR</button>
+                        <button type="submit" >CADASTRAR COLABORADOR</button>
                     </div>
                 </div>
             </form> 
+           
         </div>
     );
 }
 
 
-export default CreateMotorista;
+export default CreateColaborador;

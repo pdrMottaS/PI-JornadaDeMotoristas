@@ -1,19 +1,17 @@
 package com.iacit.iacit.models;
 
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.List;
+import java.time.LocalDateTime;
 import java.util.Set;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -26,8 +24,15 @@ public class Jornadas {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @JsonFormat(pattern="yyyy-MM-dd")
-	private LocalDate data_inicio;
+    @JsonFormat(pattern="yyyy-MM-dd@HH:mm")
+    private LocalDateTime data_inicio;
+    
+    @JsonFormat(pattern="yyyy-MM-dd@HH:mm")
+    private LocalDateTime data_final;
+
+    private String carga;
+    
+    private String destino;
 
     @ManyToMany
     @JoinTable(name = "user_jornada",
@@ -51,6 +56,9 @@ public class Jornadas {
     )
     private Set<Veiculos> veiculo;
 
+    @OneToMany(mappedBy = "jornada")
+    private Set<JornadaStatus> status;
+
     public Long getId() {
         return id;
     }
@@ -59,13 +67,13 @@ public class Jornadas {
         this.id = id;
     }
 
-    public LocalDate getData_inicio() {
+    public LocalDateTime getData_inicio() {
         return data_inicio;
     }
 
-    public void setData_inicio(LocalDate data_inicio) {
+    public void setData_inicio(LocalDateTime data_inicio) {
         this.data_inicio = data_inicio;
-    }
+    } 
 
     public Set<Users> getMotorista() {
         return motorista;
@@ -81,6 +89,38 @@ public class Jornadas {
 
     public void setVeiculo(Set<Veiculos> veiculo) {
         this.veiculo = veiculo;
+    }
+
+    public LocalDateTime getData_final() {
+        return data_final;
+    }
+
+    public void setData_final(LocalDateTime data_final) {
+        this.data_final = data_final;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
+    public void setDestino(String destino) {
+        this.destino = destino;
+    }
+
+    public String getCarga() {
+        return carga;
+    }
+
+    public void setCarga(String carga) {
+        this.carga = carga;
+    }
+
+    public Set<JornadaStatus> getStatus() {
+        return status;
+    }
+
+    public void setStatus(Set<JornadaStatus> status) {
+        this.status = status;
     }
 
 }

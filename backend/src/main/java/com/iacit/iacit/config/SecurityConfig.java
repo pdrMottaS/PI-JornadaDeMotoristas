@@ -49,7 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     protected void configure(HttpSecurity http) throws Exception{
         http.cors().and().csrf().disable().authorizeRequests()
         .antMatchers("/session").permitAll()
-        .antMatchers("/user/*","/user").access("hasRole('ROLE_ADM')")
+        .antMatchers("/user/*","/user").access("hasAnyRole('ROLE_ADM','ROLE_MOTORISTA')")
         .antMatchers("/veiculo/*","/veiculo").access("hasRole('ROLE_ADM')")
         .antMatchers("/jornada/*","/jornada").access("hasRole('ROLE_ADM')")
         .anyRequest().authenticated()

@@ -96,6 +96,17 @@ Obs: abrir os links em outras guias.
 * [Deletar Colaboradores](https://i.imgur.com/GsUbpGI.gifv)
 
 * [Agendar Jornada de trabalho](https://i.imgur.com/UTCu3HW.gifv)
+
+* [Adicionar Jornada](https://i.imgur.com/Tt0O4Ou.gifv)
+
+* [Adicionar status](https://i.imgur.com/8PBVOSw.gifv)
+
+* [Editar status](https://i.imgur.com/UMvIguX.gifv)
+
+* [Deletar status](https://i.imgur.com/Qr2gUav.gifv)
+
+* [Atribuir status a uma jornada](https://i.imgur.com/uf82XHd.gifv)
+
 * [Deslogar](https://i.imgur.com/XU8m4DS.gifv): uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
 
 ## Modelo de Dados

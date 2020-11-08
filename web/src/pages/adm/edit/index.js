@@ -94,7 +94,7 @@ function Edit(){
                     </div>
                     <div className="input-control">
                         <label htmlFor="matricula">Nº da matrícula:</label>
-                        <input type="number" id="matricula" value={matricula} name="cad-matricula" required onChange={e => setMatricula(e.target.value)}/>
+                        <input type="number" id="matricula" value={matricula} name="cad-matricula" disabled onChange={e => setMatricula(e.target.value)}/>
                     </div>
                     <div className="input-control">
                         <label htmlFor="cpf">CPF:</label>

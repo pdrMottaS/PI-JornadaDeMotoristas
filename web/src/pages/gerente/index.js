@@ -1,15 +1,15 @@
 import React,{useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import './index.css';
-import logoWork from "../../../assets/logo-work.png";
-import imagemPerfil from '../../../assets/imagem-perfil.png';
+import logoWork from "../../assets/logo-work.png";
+import imagemPerfil from '../../assets/imagem-perfil.png';
 
-import Header from '../../../components/header/index';
+import Header from '../../components/header/index';
 
-import api from '../../../services/api';
-import getCargo from '../../../utils/getCargo';
+import api from '../../services/api';
+import getCargo from '../../utils/getCargo';
 
-function AdmPage(){
+function GerentePage(){
 
     const [profile,setProfile]=useState({});
     const [viagens,setViagens]=useState([]);
@@ -91,20 +91,6 @@ function AdmPage(){
                     </div>
                 </div>
             </section>
-            <section className="botoes-administrativo">
-                <Link to="/administrador/colaborador">
-                    <button className="botao-motorista">Cadastrar Colaborador</button>
-                </Link>
-                <Link to="/administrador/veiculo">
-                    <button className="botao-administrador">Cadastrar/Editar/Excluir Veículo</button>
-                </Link>
-                <Link to="/administrador/createJornada">
-                    <button className="botao-veiculo">Criar Jornada</button>
-                </Link>
-                <Link to="registerFinanceiro">
-                    <button className="botao-financeiro">Não sei oq colocar</button>
-                </Link>
-            </section>
             <br></br>
             <p className="frase-adm">Colaboradores</p>
             <section>
@@ -135,20 +121,21 @@ function AdmPage(){
             <section>
                 {(viagens.length>0)?(
                     <div className="lista-resultados">
+                        <div className="colaborador-pesquisa" id="viagem-list">
                             {viagens.map(viagem=>(
-                                <div className="colaborador-pesquisa" id="viagem-list" key={viagem.id}>
+                                <div key={viagem.id}>
                                     <div className="viagem-informacao">
                                         <label>ID da Jornada: {viagem.id}</label> 
                                         <br></br>
-                                        <label>Data de saída: {viagem.data_inicio.replace("@"," ")}</label>
+                                        <label>Data de saída: {viagem.data_inicio}</label>
                                         <br></br>
                                         <label>Motorista: {viagem.motorista[0].nome}</label>
                                         <br></br>
                                         <label>Placa do veículo: {viagem.veiculo[0].placa}</label>
                                     </div>
-                                    <div>{viagem.status[0].status.status}</div>
                                 </div>
                             ))}
+                        </div>
                     </div>
                 ):(
                     <h2 style={{textAlign:"center"}}>Nenhuma viagem agendada</h2>
@@ -159,4 +146,4 @@ function AdmPage(){
     );
 }
 
-export default AdmPage;
+export default GerentePage;
