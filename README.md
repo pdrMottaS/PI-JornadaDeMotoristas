@@ -59,7 +59,7 @@ Obs: abrir os links em outras guias.
 
 * [Adicionar Jornada](https://i.imgur.com/Tt0O4Ou.gifv)
 
-* [Adcionar status](https://i.imgur.com/8PBVOSw.gifv)
+* [Adicionar status](https://i.imgur.com/8PBVOSw.gifv)
 
 * [Editar status](https://i.imgur.com/UMvIguX.gifv)
 
