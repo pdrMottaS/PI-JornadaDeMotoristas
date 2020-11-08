@@ -57,26 +57,15 @@ Obs: abrir os links em outras guias.
 
 ### Rotas privadas (necessário autenticação)
 
-* [Adicionar jornada]
+* [Adicionar Jornada](https://i.imgur.com/Tt0O4Ou.gifv)
 
-![createJornada](https://user-images.githubusercontent.com/58821700/98485341-8a3e2f00-21f4-11eb-860a-b23a2b2552ce.gif)
+* [Adcionar status](https://i.imgur.com/8PBVOSw.gifv)
 
-* [Adcionar status]
+* [Editar status](https://i.imgur.com/UMvIguX.gifv)
 
-![addStatus](https://user-images.githubusercontent.com/58821700/98485355-a3df7680-21f4-11eb-88cf-c5db099ff670.gif)
+* [Deletar status](https://i.imgur.com/Qr2gUav.gifv)
 
-* [Editar status]
-
-
-![updateStatus](https://user-images.githubusercontent.com/58821700/98485585-49471a00-21f6-11eb-9901-0ac3b4575fc4.gif)
-
-* [Deletar status]
-
-![deleteStatus](https://user-images.githubusercontent.com/58821700/98485592-57953600-21f6-11eb-8013-a46742b338a1.gif)
-
-* [Atribuir status a uma jornada]
-
-![addStatusToJornada](https://user-images.githubusercontent.com/58821700/98485380-cb364380-21f4-11eb-988b-14b29845e83f.gif)
+* [Atribuir status a uma jornada](https://i.imgur.com/uf82XHd.gifv)
 
 ## Modelo de Dados
 
