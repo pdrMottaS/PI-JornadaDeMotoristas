@@ -41,13 +41,9 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 Obs: abrir os links em outras guias.
 
-* [Cadastro de veículos]
+* [Cadastro de veículos](https://i.imgur.com/ucMaJs2.gifv)
 
-![tela_veiculo](https://user-images.githubusercontent.com/58821700/98485304-35021d80-21f4-11eb-92dd-b1d534091019.gif)
-
-* [Cadastro de Jornadas]
-
-![tela_jornada](https://user-images.githubusercontent.com/58821700/98485320-54994600-21f4-11eb-90b0-483288b1aa72.gif)
+* [Cadastro de Jornadas](https://i.imgur.com/6oqd6YF.gifv)
 
 ## Funcionalidades
 
