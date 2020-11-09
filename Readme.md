@@ -43,6 +43,10 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ![Card da sprint 4](https://user-images.githubusercontent.com/67328620/96373657-61ba9c00-1144-11eb-87c0-78842effe629.png)
 
+## Burndown Chart da Sprint 3
+
+![Burndown Chart](https://user-images.githubusercontent.com/58821700/98486687-b6aa7900-21fd-11eb-89e6-e3fa95fa37e8.png)
+
 ## Telas no React
 
 Telas feitas em outras sprints.
