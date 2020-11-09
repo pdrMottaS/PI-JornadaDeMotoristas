@@ -1,7 +1,7 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
 
-![loginh](https://user-images.githubusercontent.com/67328620/98449978-4cb7a400-2117-11eb-8990-635784a3bdbb.jpg)
+![Logo da equipe Psycho](https://user-images.githubusercontent.com/67328620/98449978-4cb7a400-2117-11eb-8990-635784a3bdbb.jpg)
 
 ## Objetivo
 
