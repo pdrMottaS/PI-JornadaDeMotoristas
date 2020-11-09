@@ -45,6 +45,8 @@ construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Telas no React
 
+Telas feitas em outras sprints.
+
 Obs: abrir os links em outras guias.
 
 * [Home](https://i.imgur.com/ecAWESY.png)
@@ -59,17 +61,23 @@ Obs: abrir os links em outras guias.
 
 * [Home Administrativo](https://i.imgur.com/o7MfI66.jpg)
 
-* [Cadastro de Veículo](https://i.imgur.com/bSlRNpL.png)
-
 * [Cadastro do setor financeiro](https://i.imgur.com/SkZ6tDh.png)
 
 * [Cadastro do setor administrador](https://i.imgur.com/K96HCOu.png)
 
 * [Cadastro do setor motorista](https://i.imgur.com/KMU4mgX.png)
 
+#### Sprint 3
+
+Na Sprint 3 foi adicionado duas telas.
+
+* [Cadastro de veículos](https://i.imgur.com/ucMaJs2.gifv)
+
+* [Cadastro de Jornadas](https://i.imgur.com/6oqd6YF.gifv)
+
 ## Funcionalidades
 
-Nessa Sprint foi implementado o frontend ligado a API RESTFUL feita com Spring.
+Funcionalidades feitas em outras sprints.
 
 Obs: abrir os links em outras guias.
 
@@ -108,6 +116,23 @@ Obs: abrir os links em outras guias.
 * [Atribuir status a uma jornada](https://i.imgur.com/uf82XHd.gifv)
 
 * [Deslogar](https://i.imgur.com/XU8m4DS.gifv): uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
+
+#### Sprint 3
+
+Na Sprint 3 foi implementado as funcionalidades de jornada e status da mesma.
+
+Obs: abrir os links em outras guias.
+
+* [Adicionar Jornada](https://i.imgur.com/Tt0O4Ou.gifv)
+
+* [Adicionar status](https://i.imgur.com/8PBVOSw.gifv)
+
+* [Editar status](https://i.imgur.com/UMvIguX.gifv)
+
+* [Deletar status](https://i.imgur.com/Qr2gUav.gifv)
+
+* [Atribuir status a uma jornada](https://i.imgur.com/uf82XHd.gifv)
+
 
 ## Modelo de Dados
 
