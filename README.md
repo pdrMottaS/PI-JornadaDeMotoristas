@@ -3,7 +3,7 @@
 
 ## Objetivo
 
-construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
+Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
 ## Grupo
 
