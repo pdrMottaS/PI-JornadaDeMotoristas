@@ -1,20 +1,37 @@
 ![fatecsjc_400x192](https://user-images.githubusercontent.com/58821700/94355628-07a24b80-005c-11eb-8a48-0d5b5ff3583f.png)
 # Projeto Integrador-Jornada de Motoristas
 
+![loginh](https://user-images.githubusercontent.com/67328620/98449978-4cb7a400-2117-11eb-8990-635784a3bdbb.jpg)
+
 ## Objetivo
 
-construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
+Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros, respeitando as normas de cada sindicato de cada região
 
-## Grupo
+## Grupo 
 
-* Guilherme Perfeito (PO)
-* Pedro Motta (Master SCRUM)
-* Nicholas Roque (DEV Team)
-* Vitor Alexandre Vargas dos Santos (DEV Team)
-* Wagner Kenji (DEV Team)
-* João Vitor Sales (DEV Team)
-* Lucas Lima Chaves (DEV Team)
-* Levi Motta (DEV Team)
+#### Guilherme Perfeito (PO)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/GuilhermePerfeito) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/guilherme-perfeito-a76729168/)
+
+#### Pedro Motta (Master SCRUM)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/pdrMottaS) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/pedro-motta-7471021a9/)
+
+#### Nicholas Roque (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/NicholasRoque) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/nicholas-gabriel-dos-santos-roque-9113511b2/)
+
+#### Vitor Alexandre Vargas dos Santos (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Vitoglok) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/vitor-alexandre-0b63771b2/)
+
+#### Wagner Kenji (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/UmCaraDaNet) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/wagner-kenji-franco-kamoei-6883791b2/)
+
+#### João Vitor Sales (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/joao-sales1405) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/jo%C3%A3o-sales-86a37a1b2)
+
+#### Lucas Lima Chaves (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/Lucas-Chaves) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/lucas-chaves-24312391)
+
+#### Levi Motta (DEV Team)
+[![GitHub](https://user-images.githubusercontent.com/67328620/98449116-bcc22c00-210f-11eb-96d2-c486cd873fdb.png)](https://github.com/levizoca) [![Linkedin](https://user-images.githubusercontent.com/67328620/98449119-bdf35900-210f-11eb-9d55-221cd6689fd9.png)](https://www.linkedin.com/in/levi-motta-5001a2173/)
 
 ## Story Cards
 
