@@ -71,13 +71,18 @@ Obs: abrir os links em outras guias.
 
 * [Cadastro do setor motorista](https://i.imgur.com/KMU4mgX.png)
 
-#### Sprint 3
-
-Na Sprint 3 foi adicionado duas telas.
-
 * [Cadastro de veículos](https://i.imgur.com/ucMaJs2.gifv)
 
 * [Cadastro de Jornadas](https://i.imgur.com/6oqd6YF.gifv)
+
+#### Sprint 4
+
+Na Sprint 4 todas as telas foram refeitas para um design mais simples e menos "poluído".
+
+##### Telas refeitas
+
+##### Telas criadas
+
 
 ## Funcionalidades
 
