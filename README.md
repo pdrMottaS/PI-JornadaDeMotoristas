@@ -39,6 +39,8 @@ Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Burndown chart
 
+![Burndown Chart](https://user-images.githubusercontent.com/67328620/100551760-981a2980-3261-11eb-8584-7519be6a6e5b.png)
+
 
 ## Execução
 
