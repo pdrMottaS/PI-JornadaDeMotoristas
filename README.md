@@ -59,11 +59,11 @@ Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Telas
 
-Nessa Sprint refizemos todas as telas com um design mais simples, pois o outro design achamos que estava muito "poluído". E adicionamos novas telas.
+Nessa Sprint refizemos todas as telas com um design mais simples, pois o outro design achamos que estava muito "poluído".
 
 Obs: abrir os links em outras guias.
 
-#### Telas refeitas:
+### Telas refeitas:
 
 
 * [Home do motorista](https://user-images.githubusercontent.com/58821700/100553440-b0dc0c80-326c-11eb-8161-21c0cf3cf770.png)
@@ -74,29 +74,21 @@ Obs: abrir os links em outras guias.
 
 * [Cadastro de jornada](https://user-images.githubusercontent.com/58821700/100553468-c94c2700-326c-11eb-8ebf-79f8320417c5.png)
 
-* [Login](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Home do nível de acesso do motorista](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Home do nível de acesso do gerente, administrador e financeiro](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar colaboradores no nível de acesso do setor financeiro](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
+* [Login](https://user-images.githubusercontent.com/67328620/100554124-6c06a480-3271-11eb-9e0a-d16b4ddaa893.png)
 
-#### Telas adicionadas:
+* [Home dos gerentes, administradores e pessoas do setor financeiro](https://user-images.githubusercontent.com/67328620/100554116-6a3ce100-3271-11eb-8f19-a31283e5748b.png)
 
-* [Emitir Alertas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Jornadas Futuras](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório Diário](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório Mensal](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório de Jornadas Descumpridas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Criar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
+* [Colaboradores](https://user-images.githubusercontent.com/67328620/100554114-690bb400-3271-11eb-86d8-6db71d6fc6a4.png)
+
+* [Exclusão de colaborador](https://user-images.githubusercontent.com/67328620/100554121-6b6e0e00-3271-11eb-961b-e890b1ba8267.png)
+
+* [Cadastro de colaborador](https://user-images.githubusercontent.com/67328620/100554120-6b6e0e00-3271-11eb-979c-c3e7fa094cac.png)
+
+* [Edição de colaborador](https://user-images.githubusercontent.com/67328620/100554122-6b6e0e00-3271-11eb-8e84-ad73803c04fa.png)
+
+* [Veículos](https://user-images.githubusercontent.com/67328620/100554125-6c9f3b00-3271-11eb-9905-7297667de4d3.png)
+
+* [Edição de veículo](https://user-images.githubusercontent.com/67328620/100554123-6c06a480-3271-11eb-931d-019b1b6e4445.png)
 
 ## Modelo de Dados
 
