@@ -30,7 +30,7 @@ public class JornadaStatus {
     @JoinColumn(name = "status")
     private Status status;
 
-    @JsonFormat(pattern="yyyy-MM-dd@HH:mm")
+    @JsonFormat(pattern="dd/MM/yyyy HH:mm")
     private LocalDateTime data;
 
     public Long getId() {

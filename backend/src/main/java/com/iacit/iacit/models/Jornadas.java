@@ -4,7 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -24,13 +26,11 @@ public class Jornadas {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @JsonFormat(pattern="yyyy-MM-dd@HH:mm")
+    @JsonFormat(pattern="dd/MM/yyyy HH:mm")
     private LocalDateTime data_inicio;
     
-    @JsonFormat(pattern="yyyy-MM-dd@HH:mm")
+    @JsonFormat(pattern="dd/MM/yyyy HH:mm")
     private LocalDateTime data_final;
-
-    private String carga;
     
     private String destino;
 
@@ -58,6 +58,12 @@ public class Jornadas {
 
     @OneToMany(mappedBy = "jornada")
     private Set<JornadaStatus> status;
+
+    @OneToMany(mappedBy = "jornada")
+    private Set<JornadaAlerta> alerta;
+
+    @OneToMany(mappedBy = "jornada",cascade = CascadeType.ALL, fetch=FetchType.EAGER)
+    private Set<Cargas> carga;
 
     public Long getId() {
         return id;
@@ -107,20 +113,28 @@ public class Jornadas {
         this.destino = destino;
     }
 
-    public String getCarga() {
-        return carga;
-    }
-
-    public void setCarga(String carga) {
-        this.carga = carga;
-    }
-
     public Set<JornadaStatus> getStatus() {
         return status;
     }
 
     public void setStatus(Set<JornadaStatus> status) {
         this.status = status;
+    }
+
+    public Set<JornadaAlerta> getAlerta() {
+        return alerta;
+    }
+
+    public void setAlerta(Set<JornadaAlerta> alerta) {
+        this.alerta = alerta;
+    }
+
+    public Set<Cargas> getCarga() {
+        return carga;
+    }
+
+    public void setCarga(Set<Cargas> carga) {
+        this.carga = carga;
     }
 
 }

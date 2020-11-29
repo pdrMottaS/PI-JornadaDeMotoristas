@@ -17,6 +17,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 @Table(name="usuarios")
@@ -56,6 +57,12 @@ public class Users {
     @OneToOne
     @JoinColumn(referencedColumnName = "id")
     private Escalas escala;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "usuario")
+    private Set<Pagamentos> pagamentos;
+
+    
 
     //gets and sets
     public String getCpf() {
@@ -130,6 +137,22 @@ public class Users {
 
     public void setEscala(Escalas escala) {
         this.escala = escala;
+    }
+
+    public Set<Jornadas> getJornadas() {
+        return jornadas;
+    }
+
+    public Set<Pagamentos> getPagamentos() {
+        return pagamentos;
+    }
+
+    public void setJornadas(Set<Jornadas> jornadas) {
+        this.jornadas = jornadas;
+    }
+
+    public void setPagamentos(Set<Pagamentos> pagamentos) {
+        this.pagamentos = pagamentos;
     }
 
 }

@@ -15,13 +15,10 @@ function Header(props){
 
     return(
         <div className="header">
+            <h1>{props.text}</h1>
             <div>
-                <Link to="/"><h5>IACIT Transporte</h5></Link>
-                <section>
-                    {(props.auth)?<p>Bem-vindo | <span onClick={handleLogout}>Sair</span></p>:<Link to="/login">Entrar</Link>}
-                </section>
+                <p>Bem-vindo | <span onClick={handleLogout}>Sair</span></p>
             </div>
-            <h3>{props.text}</h3>
         </div>
     );
 }

@@ -12,6 +12,8 @@ import com.iacit.iacit.repository.RoleRepository;
 import com.iacit.iacit.repository.StatusRepository;
 import com.iacit.iacit.repository.UserRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,9 +22,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class IacitApplication implements CommandLineRunner{
 
+    private static Logger logger = LoggerFactory.getLogger(IacitApplication.class);
+
 	public static void main(String[] args) {
+        logger.info("Starting API");
 		SpringApplication.run(IacitApplication.class, args);
-	}
+        logger.info("API is running");
+    }
 
 	@Autowired
     RoleRepository roleRepository;
@@ -123,20 +129,40 @@ public class IacitApplication implements CommandLineRunner{
         
         List<Status> currentStatus = rRepository.findAll();
         if(currentStatus.size()<=0){
-            Status iniciar = new Status();
-            iniciar.setId((long)1);
-            iniciar.setStatus("Jornada iniciada");
-            rRepository.save(iniciar);
+            Status notInit = new Status();
+            notInit.setId((long)1);
+            notInit.setStatus("JORNADA NAO INICIADA");
+            rRepository.save(notInit);
 
             Status pausa = new Status();
             pausa.setId((long)2);
-            pausa.setStatus("Pausa");
+            pausa.setStatus("DESCANSO");
             rRepository.save(pausa);
 
-            Status fim = new Status();
-            fim.setId((long)3);
-            fim.setStatus("Fim da jornada");
-            rRepository.save(fim);
+            Status almoco = new Status();
+            almoco.setId((long)3);
+            almoco.setStatus("ALMOCO");
+            rRepository.save(almoco);
+
+            Status entregue = new Status();
+            entregue.setId((long)4);
+            entregue.setStatus("ENTREGUE");
+            rRepository.save(entregue);
+
+            Status cancelada = new Status();
+            cancelada.setId((long)5);
+            cancelada.setStatus("CANCELADA");
+            rRepository.save(cancelada);
+
+            Status caminho = new Status();
+            caminho.setId((long)6);
+            caminho.setStatus("A CAMINHO");
+            rRepository.save(cancelada);
+
+            Status atrasado = new Status();
+            atrasado.setId((long)7);
+            atrasado.setStatus("ATRASADO");
+            rRepository.save(atrasado);
         }
 	}
 

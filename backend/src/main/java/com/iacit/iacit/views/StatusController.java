@@ -1,8 +1,13 @@
 package com.iacit.iacit.views;
 
+import java.util.Optional;
+
+import com.iacit.iacit.IacitApplication;
 import com.iacit.iacit.models.Status;
 import com.iacit.iacit.repository.StatusRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,15 +31,26 @@ public class StatusController {
     @Autowired
     StatusRepository sRepository;
 
+    private static Logger logger = LoggerFactory.getLogger(IacitApplication.class);
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Status createStatus(@RequestBody final Status status) {
+        logger.info("Novo status criado");
         return sRepository.save(status);
     }
 
     @GetMapping("{id}")
-    public Status findStatus(@PathVariable Long id){
-        return sRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Jornada não encontrado"));
+    public ResponseEntity<Optional<Status>> findStatus(@PathVariable Long id){
+        Optional<Status> status;
+        status = sRepository.findById(id);
+            return status.map(Exist -> {
+                logger.info("Status " + id + " encontrado");
+                return new ResponseEntity<Optional<Status>>(status, HttpStatus.OK);
+            }).orElseThrow(() -> {
+                logger.info("Status " + id + " não encontrado");
+                return new ResponseStatusException(HttpStatus.NOT_FOUND,"Status não encontrado");
+            });
     }
 
     @PutMapping("{id}")
@@ -44,9 +60,13 @@ public class StatusController {
         sRepository.findById(id).map(statusExist -> {
             status.setId(statusExist.getId());
             sRepository.save(status);
+            logger.info("Status " + id + " alterado");
             return ResponseEntity.noContent().build();
         })
-        .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado"));
+        .orElseThrow(() -> {
+            logger.info("Status " + id + " não encontrado");
+            return new ResponseStatusException(HttpStatus.NOT_FOUND, "Status não encontrado");
+        });
     }
 
     @DeleteMapping("{id}")
@@ -54,9 +74,13 @@ public class StatusController {
     public void deleteStatus (@PathVariable final Long id){
         sRepository.findById(id).map(status -> {
             sRepository.delete(status);
+            logger.info("Status " + id + " deletado");
             return status;
         })
-        .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado"));
+        .orElseThrow(() -> {
+            logger.info("Status " + id + " não encontrado");
+            return new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado");
+        });
     }
 
 }

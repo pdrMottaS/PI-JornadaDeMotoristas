@@ -27,7 +27,7 @@ public class Veiculos {
 
     private String modelo;
 
-    private String ano;
+    private int ano;
 
     @JsonIgnore
     @ManyToMany(mappedBy = "veiculo")
@@ -58,11 +58,11 @@ public class Veiculos {
         this.modelo = modelo;
     }
 
-    public String getAno() {
+    public int getAno() {
         return ano;
     }
 
-    public void setAno(String ano) {
+    public void setAno(int ano) {
         this.ano = ano;
     }
 

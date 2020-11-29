@@ -1,10 +1,14 @@
 package com.iacit.iacit.views;
 
 import java.util.List;
+import java.util.Optional;
 
+import com.iacit.iacit.IacitApplication;
 import com.iacit.iacit.models.Veiculos;
 import com.iacit.iacit.repository.VeiculoRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -30,23 +34,35 @@ public class VeiculoController {
     @Autowired
     VeiculoRepository vRepository;
 
+    private static Logger logger = LoggerFactory.getLogger(IacitApplication.class);
+
     // Criar Veículo
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Veiculos createVeiculo(@RequestBody final Veiculos veiculo) {
+        logger.info("Novo veículo criado");
         return vRepository.save(veiculo);
     }
 
     //Listar todos os veículos
     @GetMapping("index")
     public List<Veiculos> indexVeiculo(){
+        logger.info("Listagem de veiculos");
         return vRepository.findAll();
     }
 
     //Achar um veículo por id
     @GetMapping("{id}")
-    public Veiculos findVeiculo(@PathVariable String id){
-        return vRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Veículo não encontrado"));
+    public ResponseEntity<Optional<Veiculos>> findVeiculo(@PathVariable String id){
+        Optional<Veiculos> veiculo;
+            veiculo = vRepository.findById(id);
+            return veiculo.map(veiculoExist -> {
+                logger.info("Veículo " + id + " encontrado");
+                return new ResponseEntity<Optional<Veiculos>>(veiculo, HttpStatus.OK);
+            }).orElseThrow(() -> {
+                logger.info("Veículo " + id + " não encontrado");
+                return new ResponseStatusException(HttpStatus.NOT_FOUND,"Veículo não encontrado");
+            });
     }
 
     //Alterar um veículo
@@ -62,9 +78,13 @@ public class VeiculoController {
                     .map(veiculoExist -> {
                         veiculo.setChassi(veiculoExist.getChassi());
                         vRepository.save(veiculo);
+                        logger.info("Veículo "+id+" alterado");
                         return ResponseEntity.noContent().build();
                     })
-                    .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Veículo não encontrado"));
+                    .orElseThrow(() -> {
+                        logger.info("Veículo "+id+" não encontrado");
+                        return new ResponseStatusException(HttpStatus.NOT_FOUND, "Veículo não encontrado");
+                    });
     }
 
     //Deletar um veículo
@@ -74,9 +94,13 @@ public class VeiculoController {
         vRepository.findById(id)
             .map(veiculo -> {
                 vRepository.delete(veiculo);
+                logger.info("Veículo "+id+" deletado");
                 return veiculo;
             })
-            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Veículo não encontrado"));
+            .orElseThrow(() -> {
+                logger.info("Veículo "+id+" não encontrado");
+                return new ResponseStatusException(HttpStatus.NOT_FOUND, "Veículo não encontrado");
+            });
     }
 
     //Pesquisar por um veículo atraves de um filtro

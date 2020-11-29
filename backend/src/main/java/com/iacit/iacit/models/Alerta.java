@@ -1,10 +1,15 @@
 package com.iacit.iacit.models;
 
+import java.util.Set;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name="avisos")
@@ -21,6 +26,10 @@ public class Alerta {
     private String ocorrencia;
 
     private String icone;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "alerta")
+    private Set<JornadaAlerta> jornada;
 
     public Long getId() {
         return id;
@@ -60,6 +69,14 @@ public class Alerta {
 
     public void setIcone(String icone) {
         this.icone = icone;
+    }
+
+    public Set<JornadaAlerta> getJornada() {
+        return jornada;
+    }
+    
+    public void setJornada(Set<JornadaAlerta> jornada) {
+        this.jornada = jornada;
     }
 
 }

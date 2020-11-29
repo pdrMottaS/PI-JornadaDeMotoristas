@@ -1,8 +1,13 @@
 package com.iacit.iacit.views;
 
+import java.util.Optional;
+
+import com.iacit.iacit.IacitApplication;
 import com.iacit.iacit.models.Cargas;
 import com.iacit.iacit.repository.CargaRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -26,15 +31,26 @@ public class CargaController {
     @Autowired
     CargaRepository cRepository;
 
+    private static Logger logger = LoggerFactory.getLogger(IacitApplication.class);
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Cargas createCarga(@RequestBody final Cargas carga) {
+        logger.info("Nova carga criada");
         return cRepository.save(carga);
     }
 
     @GetMapping("{id}")
-    public Cargas findCarga(@PathVariable Long id){
-        return cRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Jornada não encontrado"));
+    public ResponseEntity<Optional<Cargas>> findCarga(@PathVariable Long id){
+        Optional<Cargas> carga;
+        carga = cRepository.findById(id);
+            return carga.map(Exist -> {
+                logger.info("Carga " + id + " encontrado");
+                return new ResponseEntity<Optional<Cargas>>(carga, HttpStatus.OK);
+            }).orElseThrow(() -> {
+                logger.info("Carga " + id + " não encontrado");
+                return new ResponseStatusException(HttpStatus.NOT_FOUND,"Carga não encontrado");
+            });
     }
 
     @PutMapping("{id}")
@@ -44,9 +60,13 @@ public class CargaController {
         cRepository.findById(id).map(cargaExist -> {
             carga.setId(cargaExist.getId());
             cRepository.save(carga);
+            logger.info("Carga "+id+" alterada");
             return ResponseEntity.noContent().build();
         })
-        .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado"));
+        .orElseThrow(() -> {
+            logger.info("Carga "+id+" não encontrada");
+            return new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado");
+        });
     }
 
     @DeleteMapping("{id}")
@@ -54,9 +74,13 @@ public class CargaController {
     public void deleteCarga (@PathVariable final Long id){
         cRepository.findById(id).map(carga -> {
             cRepository.delete(carga);
+            logger.info("Carga "+id+" deletada");
             return carga;
         })
-        .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado"));
+        .orElseThrow(() -> {
+            logger.info("Carga "+id+" não encontrada");
+            return new ResponseStatusException(HttpStatus.NOT_FOUND, "Alerta não encontrado");
+        });
     }
 
 }
