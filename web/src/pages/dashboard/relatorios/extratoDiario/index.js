@@ -5,6 +5,7 @@ import Sidenav from "../../../../components/sidenav/index";
 import Header from "../../../../components/header/index";
 import api from "./../../../../services/api";
 import InputMask from "react-input-mask";
+import { ready } from "jquery";
 
 function ExtratoDiario() {
   const [data, setData] = useState("");
@@ -25,7 +26,11 @@ function ExtratoDiario() {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
       });
-      setExtrato(res.data.valor);
+      var total = 0;
+      for(let i of res.data){
+        total+=i.valor
+      }
+      setExtrato(total);
     } catch (error) {
       alert("Algum erro ocorreu,tente novamente mais tarde.");
       console.log(error);
