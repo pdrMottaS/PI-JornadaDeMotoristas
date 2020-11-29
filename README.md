@@ -43,36 +43,36 @@ Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 ## Execução
 
-* [addAlerta](https://user-images.githubusercontent.com/58821700/100553327-3dd29600-326c-11eb-8948-75ccaa828de8.gif)
+* [Emitir alertas](https://user-images.githubusercontent.com/58821700/100553327-3dd29600-326c-11eb-8948-75ccaa828de8.gif)
 
-* [addJornada](https://user-images.githubusercontent.com/58821700/100553368-74101580-326c-11eb-9dd9-0596c2bf3392.gif)
+* [Cadastro de jornadas](https://user-images.githubusercontent.com/58821700/100553368-74101580-326c-11eb-9dd9-0596c2bf3392.gif)
 
-* [addLog](https://user-images.githubusercontent.com/58821700/100553399-7e321400-326c-11eb-8fca-13511d1d479a.gif)
+* [Logs de ações](https://user-images.githubusercontent.com/58821700/100553399-7e321400-326c-11eb-8fca-13511d1d479a.gif)
 
-* [addPagamento](https://user-images.githubusercontent.com/58821700/100553407-8be79980-326c-11eb-8ffd-9c885d728420.gif)
+* [Cadastro de pagamento](https://user-images.githubusercontent.com/58821700/100553407-8be79980-326c-11eb-8ffd-9c885d728420.gif)
 
-* [addstatus](https://user-images.githubusercontent.com/58821700/100553413-94d86b00-326c-11eb-8689-597a58d1f42d.gif)
+* [Edição de status da jornada](https://user-images.githubusercontent.com/58821700/100553413-94d86b00-326c-11eb-8689-597a58d1f42d.gif)
 
-* [editJornada](https://user-images.githubusercontent.com/58821700/100553422-9e61d300-326c-11eb-8183-45e65d8ffa62.gif)
+* [Editar jornada](https://user-images.githubusercontent.com/58821700/100553422-9e61d300-326c-11eb-8183-45e65d8ffa62.gif)
 
-* [editPagamento](https://user-images.githubusercontent.com/58821700/100553431-a6217780-326c-11eb-9b69-1b43498998ba.gif)
+* [Editar pagamentos](https://user-images.githubusercontent.com/58821700/100553431-a6217780-326c-11eb-9b69-1b43498998ba.gif)
 
 ## Telas
-
-* [HomeMotorista](https://user-images.githubusercontent.com/58821700/100553440-b0dc0c80-326c-11eb-8161-21c0cf3cf770.png)
-
-* [ListJornada](https://user-images.githubusercontent.com/58821700/100553449-b9344780-326c-11eb-93d7-06cf46098283.png)
-
-* [listPagamento](https://user-images.githubusercontent.com/58821700/100553454-c2251900-326c-11eb-8056-155ce8f02bb9.png)
-
-* [telacreateJornada](https://user-images.githubusercontent.com/58821700/100553468-c94c2700-326c-11eb-8ebf-79f8320417c5.png)
-
 
 Nessa Sprint refizemos todas as telas com um design mais simples, pois o outro design achamos que estava muito "poluído". E adicionamos novas telas.
 
 Obs: abrir os links em outras guias.
 
 #### Telas refeitas:
+
+
+* [Home do motorista](https://user-images.githubusercontent.com/58821700/100553440-b0dc0c80-326c-11eb-8161-21c0cf3cf770.png)
+
+* [Listagem de jornadas](https://user-images.githubusercontent.com/58821700/100553449-b9344780-326c-11eb-93d7-06cf46098283.png)
+
+* [Listagem de pagamentos](https://user-images.githubusercontent.com/58821700/100553454-c2251900-326c-11eb-8056-155ce8f02bb9.png)
+
+* [Cadastro de jornada](https://user-images.githubusercontent.com/58821700/100553468-c94c2700-326c-11eb-8ebf-79f8320417c5.png)
 
 * [Login](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
 * [Home do nível de acesso do motorista](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
