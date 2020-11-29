@@ -86,30 +86,30 @@ Obs: abrir os links em outras guias.
 Na Sprint 4 todas as telas foram refeitas para um design mais simples e menos "poluído".
 
 ##### Telas refeitas
-* [Login](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Home do nível de acesso do motorista](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Home do nível de acesso do gerente, administrador e financeiro](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar colaboradores](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Adicionar Veículos](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar colaboradores no nível de acesso do setor financeiro](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
 
-##### Telas adicionadas:
+* [Home do motorista](https://user-images.githubusercontent.com/58821700/100553440-b0dc0c80-326c-11eb-8161-21c0cf3cf770.png)
 
-* [Emitir Alertas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Jornadas Futuras](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório Diário](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório Mensal](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Relatório de Jornadas Descumpridas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Editar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
-* [Criar Jornadas](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&imgrefurl=https%3A%2F%2Fwww.nomadfoods.com%2Fplaceholder-1%2F&tbnid=m5vVN0urT71LuM&vet=12ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ..i&docid=Not-6PpeyFZ7aM&w=1956&h=1956&q=placeholder&ved=2ahUKEwjYss6nj6btAhWLCrkGHV9LCQ8QMygEegUIARCiAQ)
+* [Listagem de jornadas](https://user-images.githubusercontent.com/58821700/100553449-b9344780-326c-11eb-93d7-06cf46098283.png)
 
+* [Listagem de pagamentos](https://user-images.githubusercontent.com/58821700/100553454-c2251900-326c-11eb-8056-155ce8f02bb9.png)
+
+* [Cadastro de jornada](https://user-images.githubusercontent.com/58821700/100553468-c94c2700-326c-11eb-8ebf-79f8320417c5.png)
+
+* [Login](https://user-images.githubusercontent.com/67328620/100554124-6c06a480-3271-11eb-9e0a-d16b4ddaa893.png)
+
+* [Home dos gerentes, administradores e pessoas do setor financeiro](https://user-images.githubusercontent.com/67328620/100554116-6a3ce100-3271-11eb-8f19-a31283e5748b.png)
+
+* [Colaboradores](https://user-images.githubusercontent.com/67328620/100554114-690bb400-3271-11eb-86d8-6db71d6fc6a4.png)
+
+* [Exclusão de colaborador](https://user-images.githubusercontent.com/67328620/100554121-6b6e0e00-3271-11eb-961b-e890b1ba8267.png)
+
+* [Cadastro de colaborador](https://user-images.githubusercontent.com/67328620/100554120-6b6e0e00-3271-11eb-979c-c3e7fa094cac.png)
+
+* [Edição de colaborador](https://user-images.githubusercontent.com/67328620/100554122-6b6e0e00-3271-11eb-8e84-ad73803c04fa.png)
+
+* [Veículos](https://user-images.githubusercontent.com/67328620/100554125-6c9f3b00-3271-11eb-9905-7297667de4d3.png)
+
+* [Edição de veículo](https://user-images.githubusercontent.com/67328620/100554123-6c06a480-3271-11eb-931d-019b1b6e4445.png)
 
 ## Funcionalidades
 
@@ -143,12 +143,6 @@ Obs: abrir os links em outras guias.
 
 * [Deslogar](https://i.imgur.com/XU8m4DS.gifv): uma vez que o usuário faça logout do sistema, ele não tem permissão de acessar rotas autenticadas até que faça login novamente
 
-#### Sprint 3
-
-Na Sprint 3 foi implementado as funcionalidades de jornada e status da mesma.
-
-Obs: abrir os links em outras guias.
-
 * [Adicionar Jornada](https://i.imgur.com/Tt0O4Ou.gifv)
 
 * [Adicionar status](https://i.imgur.com/8PBVOSw.gifv)
@@ -159,6 +153,25 @@ Obs: abrir os links em outras guias.
 
 * [Atribuir status a uma jornada](https://i.imgur.com/uf82XHd.gifv)
 
+#### Sprint 4
+
+Na Sprint 4 foi implementado as funcionalidades de jornada e status da mesma.
+
+Obs: abrir os links em outras guias.
+
+* [Emitir alertas](https://user-images.githubusercontent.com/58821700/100553327-3dd29600-326c-11eb-8948-75ccaa828de8.gif)
+
+* [Cadastro de jornadas](https://user-images.githubusercontent.com/58821700/100553368-74101580-326c-11eb-9dd9-0596c2bf3392.gif)
+
+* [Logs de ações](https://user-images.githubusercontent.com/58821700/100553399-7e321400-326c-11eb-8fca-13511d1d479a.gif)
+
+* [Cadastro de pagamento](https://user-images.githubusercontent.com/58821700/100553407-8be79980-326c-11eb-8ffd-9c885d728420.gif)
+
+* [Edição de status da jornada](https://user-images.githubusercontent.com/58821700/100553413-94d86b00-326c-11eb-8689-597a58d1f42d.gif)
+
+* [Editar jornada](https://user-images.githubusercontent.com/58821700/100553422-9e61d300-326c-11eb-8183-45e65d8ffa62.gif)
+
+* [Editar pagamentos](https://user-images.githubusercontent.com/58821700/100553431-a6217780-326c-11eb-9b69-1b43498998ba.gif)
 
 ## Modelo de Dados
 
