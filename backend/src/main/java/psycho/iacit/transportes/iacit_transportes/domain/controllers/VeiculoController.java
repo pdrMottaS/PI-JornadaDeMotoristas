@@ -1,11 +1,11 @@
 package psycho.iacit.transportes.iacit_transportes.domain.controllers;
 
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +23,9 @@ import psycho.iacit.transportes.iacit_transportes.domain.model.Veiculo;
 import psycho.iacit.transportes.iacit_transportes.domain.repository.MotoristaRepository;
 import psycho.iacit.transportes.iacit_transportes.domain.repository.VeiculoRepository;
 
+
 @RestController
+@CrossOrigin
 @RequestMapping("/veiculo")
 public class VeiculoController {
     @Autowired

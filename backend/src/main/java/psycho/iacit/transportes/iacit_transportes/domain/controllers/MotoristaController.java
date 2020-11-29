@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
@@ -29,6 +28,7 @@ import psycho.iacit.transportes.iacit_transportes.domain.repository.MotoristaRep
 
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "motorista")
 public class MotoristaController {
     @Autowired
@@ -82,7 +82,7 @@ public class MotoristaController {
                 motoristaRepository.delete(motorista);
                 return motorista;
             })
-            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não encontrado"));
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Financeiro não encontrado"));
 
     }
 
