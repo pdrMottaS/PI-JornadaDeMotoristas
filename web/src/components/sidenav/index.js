@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
-import { FaHome, FaUserAlt, FaTruck, FaRoad, FaComment, FaRegClipboard, FaClipboardList } from 'react-icons/fa';
+import { FaHome, FaUserAlt, FaTruck, FaRoad, FaComment, FaRegClipboard, FaClipboardList,FaMoneyBillAlt } from 'react-icons/fa';
 import jquery from 'jquery'
 
 function Sidenav(){
@@ -93,7 +93,7 @@ function Sidenav(){
                 {(cargo=="Gerente" || cargo == "Administrador" || cargo == "Financeiro")?(
                     <li>
                         <Link to="/dashboard/pagamento">
-                            <FaRoad/>&nbsp;&nbsp;Pagamentos
+                            <FaMoneyBillAlt/>&nbsp;&nbsp;Pagamentos
                         </Link>
                     </li>
 
@@ -108,17 +108,17 @@ function Sidenav(){
                             <ul style={{display:'none'}} id="relatorios">
                                 <li>
                                     <Link to="/dashboard/relatorios/extratoDiario" style={{fontSize:'1rem'}}>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<p>Extrato diário</p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<p style={{margin:'0'}}>Extrato diário</p>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/dashboard/relatorios/extratoMensal" style={{fontSize:'1rem'}}> 
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<p>Extrato mensal</p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<p style={{margin:'0'}}>Extrato mensal</p>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/dashboard/relatorios/jornadasDescumpridas" style={{fontSize:'1rem'}}>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;<p>Jornadas não cumpridas</p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<p style={{margin:'0'}}>Jornadas não cumpridas</p>
                                     </Link>
                                 </li>
                             </ul>
