@@ -94,7 +94,9 @@ Obs: abrir os links em outras guias.
 
 * [Edição de veículo](https://user-images.githubusercontent.com/67328620/100554123-6c06a480-3271-11eb-931d-019b1b6e4445.png)
 
-* [Verificação de extrato](https://user-images.githubusercontent.com/58821700/100556846-ea6c4200-3283-11eb-8c1c-9961fd7eec64.png)
+* [Verificação de extrato diário](https://user-images.githubusercontent.com/67328620/100558207-4044e800-328c-11eb-9b73-319cc7c42b46.png)
+
+* [Verificação de extrato mensal](https://user-images.githubusercontent.com/67328620/100558206-3f13bb00-328c-11eb-8c17-fe16b3863078.png)
 
 ## Modelo de Dados
 
