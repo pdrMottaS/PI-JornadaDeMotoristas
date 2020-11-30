@@ -57,6 +57,10 @@ Construir uma plataforma para o controle da jornada de trabalho de caminhoneiros
 
 * [Editar pagamentos](https://user-images.githubusercontent.com/58821700/100553431-a6217780-326c-11eb-9b69-1b43498998ba.gif)
 
+* [Verificação de extrato diário](https://user-images.githubusercontent.com/58821700/100556782-70d45400-3283-11eb-83fe-aced08418447.gif)
+
+* [Verificação de extrato mensal](https://user-images.githubusercontent.com/58821700/100556801-94979a00-3283-11eb-968c-6be276990f76.gif)
+
 ## Telas
 
 Nessa Sprint refizemos todas as telas com um design mais simples, pois o outro design achamos que estava muito "poluído".
@@ -89,6 +93,10 @@ Obs: abrir os links em outras guias.
 * [Veículos](https://user-images.githubusercontent.com/67328620/100554125-6c9f3b00-3271-11eb-9905-7297667de4d3.png)
 
 * [Edição de veículo](https://user-images.githubusercontent.com/67328620/100554123-6c06a480-3271-11eb-931d-019b1b6e4445.png)
+
+* [Verificação de extrato diário](https://user-images.githubusercontent.com/67328620/100558207-4044e800-328c-11eb-9b73-319cc7c42b46.png)
+
+* [Verificação de extrato mensal](https://user-images.githubusercontent.com/67328620/100558206-3f13bb00-328c-11eb-8c17-fe16b3863078.png)
 
 ## Modelo de Dados
 

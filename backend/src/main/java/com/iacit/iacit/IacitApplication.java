@@ -163,6 +163,11 @@ public class IacitApplication implements CommandLineRunner{
             atrasado.setId((long)7);
             atrasado.setStatus("ATRASADO");
             rRepository.save(atrasado);
+
+            Status andamento = new Status();
+            andamento.setId((long)8);
+            andamento.setStatus("EM ANDAMENTO");
+            rRepository.save(andamento);
         }
 	}
 

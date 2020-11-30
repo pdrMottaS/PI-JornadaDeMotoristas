@@ -49,25 +49,25 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={()=>(<LoginPage/>)}/>
-                <Route exact path="/dashboard" component={()=>(<Dashboard/>)}/>
-                <Route exact path="/dashboard/colaborador" component={()=>(<ColaboradorPage/>)}/>
-                <Route exact path="/dashboard/colaborador/create" component={()=>(<CreateColaboraddor/>)}/>
-                <Route exact path="/dashboard/colaborador/:id" component={()=>(<EditColaborador/>)}/>
-                <Route exact path="/dashboard/veiculo" component={()=>(<VeiculoPage/>)}/>
-                <Route exact path="/dashboard/veiculo/create" component={()=>(<CreateVeiculo/>)}/>
-                <Route exact path="/dashboard/veiculo/:id" component={()=>(<EditVeiculo/>)}/>
-                <Route exact path="/dashboard/jornada" component={()=>(<JornadaPage/>)}/>
-                <Route exact path="/dashboard/jornada/create" component={()=>(<CreateJornada/>)}/>
-                <Route exact path="/dashboard/alerta" component={()=>(<AlertaPage/>)}/>
-                <Route exact path="/dashboard/jornada/:id" component={()=>(<EditJornada/>)}/>
-                <Route exact path="/dashboard/jornadas_futuras" component={()=>(<JornadaMotoristaPage/>)}/>
-                <Route exact path="/dashboard/relatorios/extratoDiario" component={()=>(<ExtratoDiario/>)}/>
-                <Route exact path="/dashboard/relatorios/extratoMensal" component={()=>(<ExtratoMensal/>)}/>
-                <Route exact path="/dashboard/relatorios/jornadasDescumpridas" component={()=>(<Descumprimento/>)}/>
-                <Route exact path="/dashboard/pagamento" component={()=>(<PagamentoPage/>)}/>
-                <Route exact path="/dashboard/pagamento/create" component={()=>(<CreatePagamento/>)}/>
-                <Route exact path="/dashboard/pagamento/:id" component={()=>(<EditPagamento/>)}/>
+                <PublicRoute exact path="/" component={()=>(<LoginPage/>)}/>
+                <PrivateRoute exact path="/dashboard" component={()=>(<Dashboard/>)}/>
+                <PrivateRoute exact path="/dashboard/colaborador" component={()=>(<ColaboradorPage/>)}/>
+                <PrivateRoute exact path="/dashboard/colaborador/create" component={()=>(<CreateColaboraddor/>)}/>
+                <PrivateRoute exact path="/dashboard/colaborador/:id" component={()=>(<EditColaborador/>)}/>
+                <PrivateRoute exact path="/dashboard/veiculo" component={()=>(<VeiculoPage/>)}/>
+                <PrivateRoute exact path="/dashboard/veiculo/create" component={()=>(<CreateVeiculo/>)}/>
+                <PrivateRoute exact path="/dashboard/veiculo/:id" component={()=>(<EditVeiculo/>)}/>
+                <PrivateRoute exact path="/dashboard/jornada" component={()=>(<JornadaPage/>)}/>
+                <PrivateRoute exact path="/dashboard/jornada/create" component={()=>(<CreateJornada/>)}/>
+                <PrivateRoute exact path="/dashboard/alerta" component={()=>(<AlertaPage/>)}/>
+                <PrivateRoute exact path="/dashboard/jornada/:id" component={()=>(<EditJornada/>)}/>
+                <PrivateRoute exact path="/dashboard/jornadas_futuras" component={()=>(<JornadaMotoristaPage/>)}/>
+                <PrivateRoute exact path="/dashboard/relatorios/extratoDiario" component={()=>(<ExtratoDiario/>)}/>
+                <PrivateRoute exact path="/dashboard/relatorios/extratoMensal" component={()=>(<ExtratoMensal/>)}/>
+                <PrivateRoute exact path="/dashboard/relatorios/jornadasDescumpridas" component={()=>(<Descumprimento/>)}/>
+                <PrivateRoute exact path="/dashboard/pagamento" component={()=>(<PagamentoPage/>)}/>
+                <PrivateRoute exact path="/dashboard/pagamento/create" component={()=>(<CreatePagamento/>)}/>
+                <PrivateRoute exact path="/dashboard/pagamento/:id" component={()=>(<EditPagamento/>)}/>
             </Switch>
         </BrowserRouter>
     );

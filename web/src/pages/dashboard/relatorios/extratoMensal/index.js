@@ -18,18 +18,23 @@ function ExtratoMensal() {
 
   async function handleSubmit(e) {
     e.preventDefault();
+    let total  = 0
     let d = data.split("/");
     let dataPost = {
-      mes: Number(d[0]),
-      ano: Number(d[1]),
+      mes: parseInt(d[0]),
+      ano: parseInt(d[1]),
     };
     try {
-      const res = await api.post("/pagamento/extrato/mensal", dataPost, {
+      const res = await api.get("/pagamento/extrato/mensal?mes="+dataPost.mes+"&ano="+dataPost.ano,{
         headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
         }
       });
-      setExtrato(res.data.valor);
+      console.log(res.data);
+      res.data.forEach(pagamento => {
+        total +=pagamento.valor
+      });
+      setExtrato(total);
     } catch (error) {
       alert("Algum erro ocorreu,tente novamente mais tarde.");
       console.log(error);
